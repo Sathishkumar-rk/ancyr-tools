@@ -23,7 +23,7 @@ def parseArguments():
     args.add_argument('--symbol_file', type=str, required=True)
     args.add_argument('--input_dir', type=str, required=False)
     args.add_argument('--output_dir', type=str, required=True)
-    args.add_argument('--path_operations', type=str, required=True)
+    args.add_argument('--path_operations', type=str, required=False)
     args.add_argument('--excluded_operations', type=str, required=True)
     args.add_argument('--csv_file', type=str, required=False)
     args_dict = vars(args.parse_args())
