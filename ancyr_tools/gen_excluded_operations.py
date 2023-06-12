@@ -50,6 +50,8 @@ def exportExcludedOperations(args):
                 result['from_offset'][offset] = {'name': name}
                 result['from_name'][name] = {'offset': offset}
 
+    if args['path_operations'] is None:
+        args['path_operations'] = []
     with open(args['output_dir'] + '/excluded_operations.ids', 'w') as file:
         for f in func:
             if f not in args['path_operations'] and f not in args['included_operations']:
