@@ -38,6 +38,9 @@ def parseArguments():
         ids_path = ids_path_file_parser(args_dict['path_operations'])
         ops = set([op for path in ids_path for op in path])
         args_dict['path_operations'] = ops
+    else:
+        args_dict['path_operations'] = []
+
 
     if args_dict['excluded_operations'] is not None:
         excluded_operations = []
