@@ -48,7 +48,10 @@ def exportExcludedOperations(args):
                 length = int(groups[1], 16)
                 name = groups[2].strip()
                 name = name.strip(".hidden ") # Required for c++ functions
-                name = cxxfilt.demangle(name)
+                try:
+                    name = cxxfilt.demangle(name)
+                except cxxfilt.InvalidName:
+                    pass
                 func.append(name)
                 result['from_offset'][offset] = {'name': name}
                 result['from_name'][name] = {'offset': offset}
