@@ -2,7 +2,7 @@ import argparse
 import re
 import os
 import pandas as pd
-import subprocess
+import cxxfilt
 
 
 def parseArguments():
@@ -47,7 +47,8 @@ def exportExcludedOperations(args):
                 offset = int(groups[0], 16)
                 length = int(groups[1], 16)
                 name = groups[2].strip()
-                # name = subprocess.run(['c++filt', name, "--no-params"], capture_output=True).stdout.decode().rstrip()
+                name = name.strip(".hidden ") # Required for c++ functions
+                name = cxxfilt.demangle(name)
                 func.append(name)
                 result['from_offset'][offset] = {'name': name}
                 result['from_name'][name] = {'offset': offset}
