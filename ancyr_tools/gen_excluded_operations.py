@@ -60,6 +60,8 @@ def exportExcludedOperations(args):
                 name = name.split(">")[0]
                 name = name.split("&")[0]
                 name = name.split(")")[0]
+                name = name.split(",")[0]
+                name = name.split(" ")[0]
                 if name not in func:
                     func.append(name)
                 result['from_offset'][offset] = {'name': name}

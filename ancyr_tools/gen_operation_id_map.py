@@ -3,6 +3,7 @@ import re
 import glob
 import os
 import pandas as pd
+import cxxfilt
 
 
 def ids_path_file_parser(file: str):
@@ -65,8 +66,25 @@ def parseSymbolFile(args):
                 offset = int(groups[0], 16)
                 length = int(groups[1], 16)
                 name = groups[2].strip()
+                name = name.split(".hidden ")[-1] # Required for c++ functions
+                try:
+                    name = cxxfilt.demangle(name)
+                except cxxfilt.InvalidName:
+                    pass
+                # Get rid of any class names
+                name = name.split("::")[-1]
+                # Get rid of function paramenters
+                name = name.split("(")[0]
+                name = name.split("<")[0]
+                name = name.split(">")[0]
+                name = name.split("&")[0]
+                name = name.split(")")[0]
+                name = name.split(",")[0]
+                name = name.split(" ")[0]
                 if name in args['excluded_operations']:
                     continue
+                if name not in func:
+                    func.append(name)
                 func.append(name)
                 result['from_offset'][offset] = {'name': name}
                 result['from_name'][name] = {'offset': offset}
