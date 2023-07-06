@@ -52,20 +52,18 @@ def exportExcludedOperations(args):
                     name = cxxfilt.demangle(name)
                 except cxxfilt.InvalidName:
                     pass
-                # Get rid of any class names
-                name = name.split("::")[-1]
-                # Get rid of function paramenters
+                # get rid of any function parameters
                 name = name.split("(")[0]
-                name = name.split("<")[0]
-                name = name.split(">")[0]
-                name = name.split("&")[0]
-                name = name.split(")")[0]
-                name = name.split(",")[0]
-                name = name.split(" ")[0]
+                # Omit anything with a space.  We don't know how to parse it
+                if " " in name:
+                    continue
+                # Omit anything with a colon.  We don't know how to parse it
+                if ":" in name:
+                    continue
                 if name not in func:
                     func.append(name)
-                result['from_offset'][offset] = {'name': name}
-                result['from_name'][name] = {'offset': offset}
+                    result['from_offset'][offset] = {'name': name}
+                    result['from_name'][name] = {'offset': offset}
 
     if args['path_operations'] is None:
         args['path_operations'] = []
