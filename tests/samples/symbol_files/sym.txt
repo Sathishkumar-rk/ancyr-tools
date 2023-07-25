@@ -1,1228 +1,293 @@
-0000000000006034 l     F .text  0000000000000014              call_weak_fn
-000000000000c824 l     F .text  0000000000000054              _ZL18__gthread_active_pv
-000000000000cdb0 l     F .text  00000000000000a0              _ZL20__gthread_mutex_lockP15pthread_mutex_t
-000000000000ce50 l     F .text  00000000000000a0              _ZL22__gthread_mutex_unlockP15pthread_mutex_t
-000000000000e170 l     F .text  0000000000000394              _Z41__static_initialization_and_destruction_0ii
-0000000000005b70 l     F .text  0000000000000058              _GLOBAL__sub_I__Z3subN2cv6Point_IfEES1_
-0000000000005fd0 l     F .text  000000000000002c              init_have_lse_atomics
-0000000000006050 l     F .text  0000000000000000              deregister_tm_clones
-0000000000006080 l     F .text  0000000000000000              register_tm_clones
-00000000000060c0 l     F .text  0000000000000000              __do_global_dtors_aux
-0000000000006110 l     F .text  0000000000000000              frame_dummy
-0000000000006444 l     F .text  00000000000000ec              parse_hex4
-0000000000006530 l     F .text  00000000000001c4              utf16_literal_to_utf8
-00000000000066f4 l     F .text  000000000000032c              parse_string
-0000000000006a20 l     F .text  0000000000000054              get_decimal_point
-0000000000006a74 l     F .text  00000000000000b0              buffer_skip_whitespace
-0000000000006b24 l     F .text  0000000000000088              compare_double
-0000000000006c34 l     F .text  0000000000000094              get_array_item
-0000000000006cd0 l     F .text  0000000000000064              suffix_object
-0000000000006d34 l     F .text  0000000000000060              cast_away_const
-0000000000006f50 l     F .text  0000000000000098              skip_multiline_comment
-0000000000006ff0 l     F .text  000000000000012c              minify_string
-0000000000007750 l     F .text  0000000000000154              ensure
-00000000000078a4 l     F .text  0000000000000298              print_string_ptr
-0000000000007b40 l     F .text  0000000000000078              print_string
-0000000000007bc0 l     F .text  00000000000000a0              cJSON_strdup
-0000000000007c60 l     F .text  000000000000007c              cJSON_New_Item
-0000000000007ce0 l     F .text  00000000000000a0              create_reference
-00000000000083e0 l     F .text  00000000000000b0              skip_utf8_bom
-0000000000008490 l     F .text  00000000000000bc              case_insensitive_strcmp
-0000000000008550 l     F .text  00000000000000d4              get_object_item
-0000000000008720 l     F .text  0000000000000084              skip_oneline_comment
-0000000000008950 l     F .text  00000000000000a4              update_offset
-0000000000008ed0 l     F .text  00000000000001b4              parse_number
-0000000000009084 l     F .text  0000000000000244              parse_value
-0000000000009770 l     F .text  0000000000000228              parse_object
-00000000000095a0 l     F .text  00000000000001cc              parse_array
-0000000000009ce4 l     F .text  00000000000000e4              add_item_to_array
-0000000000009ee0 l     F .text  0000000000000120              add_item_to_object
-000000000000ab40 l     F .text  000000000000013c              replace_item_in_object
-000000000000b7b0 l     F .text  0000000000000274              print_number
-000000000000ba24 l     F .text  00000000000001f0              print_value
-000000000000be90 l     F .text  0000000000000174              print_array
-000000000000c004 l     F .text  00000000000002a8              print_object
-000000000000bc14 l     F .text  000000000000017c              print
-0000000000031bf0 l     F .text  0000000000000108              _ZSt8__invokeIPFvvEJEENSt15__invoke_resultIT_JDpT0_EE4typeEOS3_DpOS4_
-0000000000029510 l     F .text  0000000000000128              _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEE9constructISA_JSA_EEEvPT_DpOT0_
-000000000001f880 l     F .text  0000000000000094              _ZNSt6vectorI4LaneSaIS0_EE3endEv
-0000000000018c70 l     F .text  0000000000000068              _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ED1Ev
-0000000000030b90 l     F .text  0000000000000198              _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EED1Ev
-0000000000034030 l     F .text  00000000000000e4              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_
-0000000000026830 l     F .text  00000000000000e8              _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE13_M_deallocateEPS5_m
-0000000000012e10 l     F .text  0000000000000078              _ZNKSt6vectorI13VehicleSampleSaIS0_EE4sizeEv
-00000000000203c0 l     F .text  0000000000000094              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_beginEv
-0000000000035930 l     F .text  00000000000001b4              _ZNK4argh6parserixESt16initializer_listIKPKcE
-000000000001f560 l     F .text  0000000000000094              _ZNSt6vectorI13VehicleSampleSaIS0_EE5beginEv
-00000000000180a0 l     F .text  0000000000000060              _ZSt7forwardIRbEOT_RNSt16remove_referenceIS1_E4typeE
-0000000000035330 l     F .text  0000000000000198              _ZNSt8multimapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St4lessIS5_ESaISt4pairIKS5_S5_EEED1Ev
-000000000002e950 l     F .text  000000000000018c              _ZNSt6vectorIN2cv3VecIiLi4EEESaIS2_EED1Ev
-000000000002fce0 l     F .text  0000000000000154              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE4backEv
-00000000000281a0 l     F .text  000000000000011c              _ZNSt12_Vector_baseI4LaneSaIS0_EED2Ev
-0000000000016640 l     F .text  0000000000000060              _ZNSt15_Rb_tree_header8_M_resetEv
-00000000000338a0 l     F .text  000000000000016c              _ZSt7find_ifIPKPKcZNK4argh6parserixESt16initializer_listIS2_EEUlS1_E_ET_S9_S9_T0_
-00000000000354d0 l     F .text  0000000000000144              _ZNSt8multimapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St4lessIS5_ESaISt4pairIKS5_S5_EEE5clearEv
-000000000002f620 l     F .text  0000000000000160              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EED1Ev
-0000000000038d50 l     F .text  0000000000000190              _ZNKSt6vectorI4LaneSaIS0_EE8max_sizeEv
-000000000002dd90 l     F .text  000000000000017c              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev
-000000000002be10 l     F .text  00000000000000d0              _ZNSt6chronoltIlSt5ratioILl1ELl1000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
-0000000000014120 l     F .text  000000000000006c              _ZNKSt6vectorIN2cv5Rect_IiEESaIS2_EE4sizeEv
-000000000002a870 l     F .text  00000000000000f4              _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE11_M_allocateEm
-0000000000026220 l     F .text  0000000000000184              _ZN3zmq8socket_tC1ERNS_9context_tENS_11socket_typeE
-0000000000014770 l     F .text  0000000000000080              _ZNKSt6vectorI4LaneSaIS0_EE4sizeEv
-000000000001f600 l     F .text  0000000000000094              _ZNSt6vectorI13VehicleSampleSaIS0_EE3endEv
-000000000002f490 l     F .text  0000000000000190              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE17_M_construct_nodeIJS5_EEEvPSt13_Rb_tree_nodeIS5_EDpOT_
-000000000002eae0 l     F .text  0000000000000144              _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EE5clearEv
-0000000000023370 l     F .text  00000000000000c8              _ZNSt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9_M_valptrEv
-00000000000224d0 l     F .text  00000000000000ec              _ZN2cv7Scalar_IdEC1Edddd
-000000000001b9a0 l     F .text  0000000000000094              _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE3endEv
-00000000000253d0 l     F .text  0000000000000128              _ZSt3getILm0EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOSC_
-0000000000030070 l     F .text  00000000000000bc              _ZN2cv12_OutputArrayC1ERNS_3MatE
-0000000000039cf0 l     F .text  00000000000000c4              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE6resizeEm
-0000000000025a90 l     F .text  00000000000000d4              _ZN9__gnu_cxxmiIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEENS_17__normal_iteratorIT_T0_E15difference_typeERKSE_SH_
-0000000000039dc0 l     F .text  0000000000000184              _ZNKSt6vectorIiSaIiEE8max_sizeEv
-000000000001a690 l     F .text  0000000000000060              _ZN3zmq9context_tD1Ev
-0000000000027730 l     F .text  00000000000000fc              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS5_E
-0000000000026a30 l     F .text  00000000000000e8              _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE13_M_deallocateEPS2_m
-0000000000029130 l     F .text  00000000000000c4              _ZNSt6threadD1Ev
-0000000000022c40 l     F .text  00000000000000b0              _ZNKSt4lessINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEclERKS5_S8_
-0000000000036720 l     F .text  00000000000001f0              _ZSt13__copy_move_aILb0EN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS2_SaIS2_EEEENS1_IPS2_S7_EEET1_T0_SC_SB_
-0000000000021610 l     F .text  00000000000000e4              _ZN9__gnu_cxx13new_allocatorI13VehicleSampleE8allocateEmPKv
-0000000000027460 l     F .text  00000000000000d4              _ZN9__gnu_cxx13new_allocatorI4LaneE9constructIS1_JS1_EEEvPT_DpOT0_
-0000000000032dd0 l     F .text  0000000000000298              _ZNSt11_Tuple_implILm1EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEEC2IRS5_JS8_RbEvEEOT_DpOT0_
-00000000000310c0 l     F .text  00000000000001b4              _ZSt27__uninitialized_default_n_aIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmS5_ET_S7_T0_RSaIT1_E
-0000000000016bc0 l     F .text  0000000000000060              _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_get_Tp_allocatorEv
-000000000002b210 l     F .text  0000000000000238              _ZSt14__relocate_a_1IP13VehicleSampleS1_SaIS0_EET0_T_S4_S3_RT1_
-00000000000387a0 l     F .text  00000000000000e4              _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EE7emplaceIJS5_EEESt23_Rb_tree_const_iteratorIS5_EDpOT_
-0000000000019f30 l     F .text  0000000000000208              _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
-0000000000018ed0 l     F .text  00000000000000a0              _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE9constructIS5_JRS5_EEEvRS6_PT_DpOT0_
-0000000000012760 l     F .text  0000000000000060              _ZN2cv12_OutputArrayD1Ev
-000000000002a670 l     F .text  00000000000000f4              _ZNSt12_Vector_baseIiSaIiEE11_M_allocateEm
-0000000000032660 l     F .text  00000000000000b0              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE14_M_create_nodeIJRS5_EEEPSt13_Rb_tree_nodeIS5_EDpOT_
-0000000000025b70 l     F .text  00000000000000e8              _ZN9__gnu_cxxmiIP7VehicleSt6vectorIS1_SaIS1_EEEENS_17__normal_iteratorIT_T0_E15difference_typeERKS9_SC_
-00000000000145f0 l     F .text  0000000000000060              _ZN2cv17_InputOutputArrayD1Ev
-0000000000035cc0 l     F .text  00000000000001b0              _ZNSt6chronomiIlSt5ratioILl1ELl1000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_
-0000000000019db0 l     F .text  000000000000010c              _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE15_M_add_ref_copyEv
-0000000000022f70 l     F .text  00000000000001e8              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEED1Ev
-0000000000032970 l     F .text  00000000000000dc              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE14_M_create_nodeIJS5_EEEPSt13_Rb_tree_nodeIS5_EDpOT_
-000000000001d6b0 l     F .text  00000000000000cc              _ZN2cv3PtrINS_2ml6RTreesEED1Ev
-0000000000014590 l     F .text  0000000000000060              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev
-0000000000028900 l     F .text  00000000000000cc              _ZNSt5mutex4lockEv
-000000000003c1f0 l     F .text  00000000000002e4              _ZNSt6thread8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_bES7_S7_bEEE9_M_invokeIJLm0ELm1ELm2ELm3EEEEiSt12_Index_tupleIJXspT_EEE
-0000000000039650 l     F .text  000000000000017c              _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_M_check_lenEmPKc
-0000000000020600 l     F .text  0000000000000098              _ZNK2cv3PtrINS_2ml6RTreesEE5emptyEv
-0000000000013130 l     F .text  0000000000000060              _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE19_M_get_Tp_allocatorEv
-00000000000248f0 l     F .text  00000000000000f0              _ZN2cv3Mat2atINS_3VecIiLi4EEEEERT_i
-0000000000036910 l     F .text  00000000000000e8              _ZSt4copyIN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS2_SaIS2_EEEENS1_IPS2_S7_EEET0_T_SC_SB_
-0000000000022cf0 l     F .text  00000000000000d0              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_
-000000000002a4d0 l     F .text  00000000000000f4              _ZNSt12_Vector_baseI4LaneSaIS0_EE11_M_allocateEm
-0000000000025340 l     F .text  000000000000008c              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE6_S_keyEPKSt18_Rb_tree_node_base
-000000000001e000 l     F .text  0000000000000160              _ZNSt6vectorI13VehicleSampleSaIS0_EEC1Ev
-00000000000384e0 l     F .text  00000000000001d0              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE12_M_drop_nodeEPSt13_Rb_tree_nodeIS5_E
-000000000002a5d0 l     F .text  0000000000000098              _ZNSt12_Vector_baseI4LaneSaIS0_EE17_M_create_storageEm
-000000000001bd80 l     F .text  00000000000000b4              _ZN3zmq6detail11socket_base7connectEPKc
-00000000000249e0 l     F .text  00000000000000fc              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE11_M_put_nodeEPSt13_Rb_tree_nodeIS8_E
-0000000000038ee0 l     F .text  000000000000017c              _ZNKSt6vectorI4LaneSaIS0_EE12_M_check_lenEmPKc
-000000000001bc10 l     F .text  00000000000000ac              _ZN3zmq9context_tC1Ev
-000000000002b8d0 l     F .text  00000000000000d0              _ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1000EEEES4_RKNS1_IT_T0_EE
-000000000001ff60 l     F .text  00000000000000d8              _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE8allocateEmPKv
-000000000002a770 l     F .text  00000000000000f4              _ZNSt12_Vector_baseI7VehicleSaIS0_EE11_M_allocateEm
-0000000000035e70 l     F .text  0000000000000208              _ZNSt11this_thread9sleep_forIlSt5ratioILl1ELl1000EEEEvRKNSt6chrono8durationIT_T0_EE
-000000000003c640 l     F .text  0000000000000154              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE11_M_get_nodeEv
-0000000000037aa0 l     F .text  000000000000025c              _ZN4argh6parserD1Ev
-000000000002ba80 l     F .text  00000000000000f8              _ZN9__gnu_cxx14__alloc_traitsISaIcEcE17_S_select_on_copyERKS1_
-0000000000019a50 l     F .text  00000000000000a0              _ZNSt11char_traitsIcE6lengthEPKc
-0000000000036de0 l     F .text  0000000000000150              _ZNK4argh6parserclB5cxx11Em
-0000000000033390 l     F .text  00000000000000dc              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
-00000000000147f0 l     F .text  0000000000000070              _ZNSt6vectorI4LaneSaIS0_EEixEm
-0000000000035620 l     F .text  000000000000030c              _ZNSt6threadC1IRFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_bEJRS6_S9_RbEvEEOT_DpOT0_
-0000000000039410 l     F .text  00000000000000ac              _ZNSt6vectorI4LaneSaIS0_EE9push_backEOS0_
-0000000000012760 l     F .text  0000000000000060              _ZN2cv12_OutputArrayD2Ev
-0000000000019af0 l     F .text  00000000000000f8              _ZNK2cv11_InputArray6getMatEi
-000000000001b410 l     F .text  0000000000000094              _ZNKSt6vectorI13VehicleSampleSaIS0_EE3endEv
-0000000000020460 l     F .text  0000000000000094              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_M_beginEv
-000000000003c880 l     F .text  0000000000000138              _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE11_Alloc_nodeclIS8_EEPSt13_Rb_tree_nodeIS8_EOT_
-000000000001b000 l     F .text  0000000000000084              _ZNSaI4LaneED1Ev
-000000000002bb80 l     F .text  000000000000016c              _ZNK4argh6parser9is_numberERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-000000000002f780 l     F .text  000000000000012c              _ZNSt16allocator_traitsISaI13VehicleSampleEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
-000000000003d620 l     F .text  000000000000053c              _ZN4argh6parserC1EPKPKci
-0000000000026d00 l     F .text  00000000000000ec              _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE13_M_deallocateEPS0_m
-0000000000019040 l     F .text  00000000000000c4              _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE9constructIS7_JRS7_EEEvPT_DpOT0_
-000000000002dc70 l     F .text  00000000000000ac              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE15_M_erase_at_endEPS5_
-00000000000346d0 l     F .text  000000000000017c              _ZNSt6vectorI13VehicleSampleSaIS0_EE11_S_relocateEPS0_S3_S3_RS1_
-000000000002b9a0 l     F .text  00000000000000e0              _ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
-0000000000026f10 l     F .text  00000000000000e8              _ZNSt12_Vector_baseIiSaIiEE13_M_deallocateEPim
-0000000000039f50 l     F .text  000000000000017c              _ZNKSt6vectorIiSaIiEE12_M_check_lenEmPKc
-0000000000025c60 l     F .text  00000000000000e8              _ZN9__gnu_cxxmiIP4LaneSt6vectorIS1_SaIS1_EEEENS_17__normal_iteratorIT_T0_E15difference_typeERKS9_SC_
-000000000002d940 l     F .text  00000000000001b4              _ZNKSt6vectorIN2cv5Rect_IiEESaIS2_EE5emptyEv
-000000000002cc20 l     F .text  00000000000000ec              _ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E
-00000000000303e0 l     F .text  00000000000000d4              _ZN2cv11_InputArrayC1ERKNS_3MatE
-0000000000024630 l     F .text  00000000000000b4              _ZSt8_DestroyIP13VehicleSampleS0_EvT_S2_RSaIT0_E
-0000000000027830 l     F .text  0000000000000108              _ZNKRSt8optionalImE8value_orIiEEmOT_
-000000000001fb00 l     F .text  00000000000000bc              _ZStrsINSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEERNS0_12basic_stringIcS3_S4_EEEOT_SA_OT0_
-000000000003ccc0 l     F .text  00000000000000c0              _ZNSt8multimapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St4lessIS5_ESaISt4pairIKS5_S5_EEE6insertEOSA_
-000000000003aa20 l     F .text  00000000000000bc              _ZNSt6vectorI13VehicleSampleSaIS0_EE9push_backERKS0_
-0000000000012640 l     F .text  000000000000005c              _ZN2cv5Size_IiEC1Ev
-000000000002fe40 l     F .text  0000000000000154              _ZNSt6vectorI4LaneSaIS0_EE4backEv
-0000000000016e30 l     F .text  0000000000000060              _ZSt7forwardINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEOT_RNSt16remove_referenceIS6_E4typeE
-0000000000017090 l     F .text  0000000000000060              _ZSt7forwardIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEOT_RNSt16remove_referenceIS7_E4typeE
-000000000003ac70 l     F .text  000000000000017c              _ZNKSt6vectorI7VehicleSaIS0_EE12_M_check_lenEmPKc
-000000000001bcc0 l     F .text  00000000000000b4              _ZN3zmq6detail11socket_base4bindEPKc
-0000000000031280 l     F .text  00000000000001a4              _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED1Ev
-0000000000013880 l     F .text  0000000000000080              _ZNKSt6vectorI7VehicleSaIS0_EE4sizeEv
-00000000000265a0 l     F .text  0000000000000100              _ZSt12__relocate_aIPiS0_SaIiEET0_T_S3_S2_RT1_
-0000000000032b20 l     F .text  00000000000001b8              _ZSt13__copy_move_aILb0EP13VehicleSampleS1_ET1_T0_S3_S2_
-0000000000017bf0 l     F .text  000000000000006c              _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE4sizeEv
-0000000000024ae0 l     F .text  0000000000000128              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE6_S_keyEPKSt13_Rb_tree_nodeIS8_E
-000000000002a320 l     F .text  00000000000001ac              _ZNK4argh6parser8got_flagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-0000000000028360 l     F .text  0000000000000158              _ZNK3zmq9message_t9to_stringB5cxx11Ev
-000000000003cd80 l     F .text  00000000000007e0              _ZN4argh6parser5parseEiPKPKci
-000000000001d5c0 l     F .text  00000000000000e4              _ZN6StatusC1Ev
-0000000000038b60 l     F .text  00000000000001e8              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE17_M_construct_nodeIJS8_EEEvPSt13_Rb_tree_nodeIS8_EDpOT_
-0000000000021700 l     F .text  00000000000000d8              _ZN9__gnu_cxx13new_allocatorIiE8allocateEmPKv
-00000000000241b0 l     F .text  00000000000000b4              _ZSt8_DestroyIN9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS2_SaIS2_EEEES2_EvT_S8_RSaIT0_E
-0000000000032a50 l     F .text  00000000000000c4              _ZN3zmq8socket_tD1Ev
-0000000000022e90 l     F .text  00000000000000d4              _ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000EEEES2_ILl1000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
-0000000000025210 l     F .text  0000000000000128              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE6_S_keyEPKSt13_Rb_tree_nodeIS5_E
-0000000000034b50 l     F .text  000000000000017c              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE11_S_relocateEPS5_S8_S8_RS6_
-000000000003a3b0 l     F .text  000000000000010c              _ZNSt6vectorIiSaIiEE9push_backERKi
-00000000000317c0 l     F .text  00000000000001b0              _ZNSt6vectorI13VehicleSampleSaIS0_EE20_M_allocate_and_copyIN9__gnu_cxx17__normal_iteratorIPKS0_S2_EEEEPS0_mT_SA_
-000000000002d280 l     F .text  0000000000000188              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS8_E
-0000000000022dc0 l     F .text  00000000000000d0              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_RKS8_
-00000000000140b0 l     F .text  000000000000006c              _ZN2cv6Point_IiEC1Eii
-0000000000038980 l     F .text  00000000000000c0              _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EE7emplaceIJRS5_EEESt23_Rb_tree_const_iteratorIS5_EDpOT_
-0000000000029700 l     F .text  00000000000000fc              _ZNSt10lock_guardISt5mutexED1Ev
-000000000001f6a0 l     F .text  0000000000000094              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5beginEv
-000000000002f110 l     F .text  0000000000000374              _ZNSt6vectorI4LaneSaIS0_EEC1ERKS2_
-000000000001f740 l     F .text  0000000000000094              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE3endEv
-000000000002fb10 l     F .text  000000000000012c              _ZNSt16allocator_traitsISaI7VehicleEE9constructIS0_JRKS0_EEEvRS1_PT_DpOT0_
-00000000000127c0 l     F .text  000000000000006c              _ZNK2cv3Mat8channelsEv
-000000000001b370 l     F .text  0000000000000094              _ZNKSt6vectorI13VehicleSampleSaIS0_EE5beginEv
-000000000002bee0 l     F .text  0000000000000238              _ZSt14__relocate_a_1IP4LaneS1_SaIS0_EET0_T_S4_S3_RT1_
-0000000000013800 l     F .text  000000000000007c              _ZNSt6vectorI7VehicleSaIS0_EEixEm
-000000000002c240 l     F .text  0000000000000124              _ZNSt16allocator_traitsISaIiEE9constructIiJRKiEEEvRS0_PT_DpOT0_
-0000000000021410 l     F .text  00000000000000f4              _ZN9__gnu_cxx13new_allocatorI4LaneE8allocateEmPKv
-00000000000257f0 l     F .text  00000000000000d4              _ZN9__gnu_cxxmiIPiSt6vectorIiSaIiEEEENS_17__normal_iteratorIT_T0_E15difference_typeERKS8_SB_
-0000000000021330 l     F .text  00000000000000d8              _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8allocateEmPKv
-000000000002bcf0 l     F .text  0000000000000114              _ZNK4argh6parser9is_optionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-000000000003c0c0 l     F .text  0000000000000128              _ZSt8__invokeIPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEJS5_S5_bEENSt15__invoke_resultIT_JDpT0_EE4typeEOS9_DpOSA_
-000000000002aeb0 l     F .text  0000000000000240              _ZSt14__relocate_a_1IPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_SaIS5_EET0_T_S9_S8_RT1_
-0000000000012710 l     F .text  000000000000004c              _ZN2cv11_InputArrayD1Ev
-000000000002c9b0 l     F .text  00000000000001bc              _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_
-0000000000028000 l     F .text  00000000000001a0              _ZNSt8optionalImEC1ImLb1EEEOT_
-00000000000177c0 l     F .text  000000000000006c              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEixEm
-0000000000029fd0 l     F .text  0000000000000098              _ZNK4argh6parser8is_paramERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-0000000000028b60 l     F .text  00000000000000c4              _ZN3zmq6detail11socket_base4bindERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-0000000000034850 l     F .text  000000000000017c              _ZNSt6vectorI4LaneSaIS0_EE11_S_relocateEPS0_S3_S3_RS1_
-0000000000037350 l     F .text  0000000000000134              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEmcRKS3_
-0000000000033470 l     F .text  0000000000000128              _ZZNK4argh6parserixESt16initializer_listIKPKcEENKUlS3_E_clES3_
-00000000000335a0 l     F .text  0000000000000094              _ZN9__gnu_cxx5__ops10_Iter_predIZNK4argh6parserixESt16initializer_listIKPKcEEUlS6_E_EclIPS7_EEbT_
-000000000001a4b0 l     F .text  000000000000007c              _ZN3zmq9message_tD1Ev
-000000000002e7c0 l     F .text  000000000000018c              _ZNSt6vectorIN2cv5Rect_IiEESaIS2_EED1Ev
-0000000000014960 l     F .text  0000000000000060              _ZN16ExpMovingAverage5clearEv
-0000000000034410 l     F .text  00000000000002b8              _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEEC1IJRS9_RS8_SG_RbEEEDpOT_
-00000000000148d0 l     F .text  0000000000000088              _ZN16ExpMovingAverage3addEd
-00000000000394c0 l     F .text  0000000000000184              _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE8max_sizeEv
-0000000000034330 l     F .text  00000000000000e0              _ZNSt7__cxx119to_stringEd
-000000000001be40 l     F .text  0000000000000090              _ZNSt11_Tuple_implILm2EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbEED2Ev
-0000000000020ba0 l     F .text  0000000000000090              _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE7destroyIS5_EEvRS6_PT_
-000000000002a970 l     F .text  00000000000000f4              _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE11_M_allocateEm
-0000000000026b20 l     F .text  00000000000000e8              _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE13_M_deallocateEPS2_m
-0000000000027110 l     F .text  00000000000000f0              _ZNSt12_Vector_baseI7VehicleSaIS0_EE13_M_deallocateEPS0_m
-0000000000035af0 l     F .text  00000000000001d0              _ZSt22__uninitialized_copy_aIP13VehicleSampleS1_S0_ET0_T_S3_S2_RSaIT1_E
-0000000000028eb0 l     F .text  00000000000000fc              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE11_M_get_nodeEv
-00000000000324f0 l     F .text  0000000000000168              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE17_M_construct_nodeIJRS5_EEEvPSt13_Rb_tree_nodeIS5_EDpOT_
-000000000001a5c0 l     F .text  00000000000000c4              _ZN3zmq9context_t5closeEv
-0000000000025f90 l     F .text  0000000000000184              _ZSt13__invoke_implIiPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEJS5_S5_bEET_St14__invoke_otherOT0_DpOT1_
-0000000000017040 l     F .text  000000000000004c              _ZdlPvS_
-000000000002b570 l     F .text  0000000000000238              _ZSt14__relocate_a_1IP7VehicleS1_SaIS0_EET0_T_S4_S3_RT1_
-0000000000012da0 l     F .text  0000000000000070              _ZNSt6vectorI13VehicleSampleSaIS0_EEixEm
-000000000001a430 l     F .text  000000000000007c              _ZN3zmq9message_tC1Ev
-0000000000037490 l     F .text  0000000000000210              _ZNSt7__cxx119to_stringEi
-0000000000012a50 l     F .text  000000000000006c              _ZNKSt6vectorIiSaIiEE4sizeEv
-0000000000030d30 l     F .text  0000000000000198              _ZNSt3setINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EED1Ev
-000000000001ba40 l     F .text  00000000000000ac              _ZN3zmq7error_tC1Ev
-0000000000029a80 l     F .text  0000000000000188              _ZNSt6vectorI13VehicleSampleSaIS0_EED1Ev
-0000000000012710 l     F .text  000000000000004c              _ZN2cv11_InputArrayD2Ev
-0000000000013b60 l     F .text  000000000000005c              _ZN2cv6Point_IiEC1Ev
-0000000000037900 l     F .text  00000000000001a0              _ZNSt6vectorI4LaneSaIS0_EED1Ev
-0000000000027540 l     F .text  00000000000000a8              _ZNSt16allocator_traitsISaI4LaneEE9constructIS0_JS0_EEEvRS1_PT_DpOT0_
-0000000000026c10 l     F .text  00000000000000ec              _ZNSt12_Vector_baseI4LaneSaIS0_EE13_M_deallocateEPS0_m
-0000000000024ca0 l     F .text  0000000000000130              _ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EE6_M_ptrEv
-00000000000302a0 l     F .text  0000000000000134              _ZN2cv17_InputOutputArrayC1ERNS_3MatE
-00000000000285a0 l     F .text  00000000000001bc              _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS4_SaIS4_EEEEPS4_EET0_T_SD_SC_
-000000000002e630 l     F .text  000000000000018c              _ZNSt6vectorIiSaIiEED1Ev
-0000000000014860 l     F .text  000000000000006c              _ZN16ExpMovingAverage3getEv
-000000000003d560 l     F .text  00000000000000c0              _ZN4argh6parser5parseEPKPKci
-0000000000018e00 l     F .text  00000000000000c4              _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9constructIS6_JRS6_EEEvPT_DpOT0_
-000000000003a4c0 l     F .text  0000000000000188              _ZNKSt6vectorI13VehicleSampleSaIS0_EE8max_sizeEv
-000000000001baf0 l     F .text  0000000000000120              _ZN3zmq9context_tC1Eii
-000000000003aae0 l     F .text  0000000000000190              _ZNKSt6vectorI7VehicleSaIS0_EE8max_sizeEv
-000000000003ee80 l     F .text  0000000000000030              __aarch64_ldadd4_acq_rel
-000000000002ed90 l     F .text  000000000000026c              _ZN3zmq6detail11socket_base4recvERNS_9message_tENS_10recv_flagsE
-0000000000024c10 l     F .text  000000000000008c              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE6_S_keyEPKSt18_Rb_tree_node_base
-0000000000021510 l     F .text  00000000000000f8              _ZN9__gnu_cxx13new_allocatorI7VehicleE8allocateEmPKv
-0000000000031d00 l     F .text  000000000000014c              _ZNSt6thread8_InvokerISt5tupleIJPFvvEEEE9_M_invokeIJLm0EEEEvSt12_Index_tupleIJXspT_EEE
-0000000000031430 l     F .text  000000000000038c              _ZNSt6threadC1IRFvvEJEvEEOT_DpOT0_
-000000000002db00 l     F .text  0000000000000170              _ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EvT_S7_RSaIT0_E
-0000000000028c30 l     F .text  00000000000000c4              _ZN3zmq6detail11socket_base7connectERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-00000000000349d0 l     F .text  000000000000017c              _ZNSt6vectorI7VehicleSaIS0_EE11_S_relocateEPS0_S3_S3_RS1_
-0000000000029200 l     F .text  0000000000000234              _ZN3zmq6detail11socket_base4sendENS_12const_bufferENS_10send_flagsE
-000000000003a650 l     F .text  000000000000017c              _ZNKSt6vectorI13VehicleSampleSaIS0_EE12_M_check_lenEmPKc
-000000000002ffa0 l     F .text  00000000000000c4              _ZN2cv11_InputArrayC2Ev
-000000000003b070 l     F .text  000000000000010c              _ZNSt6vectorI7VehicleSaIS0_EE9push_backERKS0_
-0000000000026770 l     F .text  00000000000000b4              _ZNSt12_Vector_baseI4LaneSaIS0_EE12_Vector_implD1Ev
-000000000001a1a0 l     F .text  00000000000000f4              _ZNK4argh6parser19trim_leading_dashesERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-0000000000029800 l     F .text  0000000000000134              _ZN16ThreadSafeString9setStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-0000000000032ce0 l     F .text  00000000000000e8              _ZSt4copyIP13VehicleSampleS1_ET0_T_S3_S2_
-0000000000029f00 l     F .text  00000000000000d0              _ZNKSt3setINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EE5countERKS5_
-0000000000018650  w    F .text  0000000000000068              .hidden _ZNKSt14default_deleteINSt6thread6_StateEEclEPS1_
-0000000000020fb0  w    F .text  00000000000000d8              .hidden _ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeIS_IKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_EERS1_Lb1EEEOT_OT0_
-0000000000012830  w    F .text  0000000000000074              .hidden _ZN2cv3Mat3ptrIhEEPT_i
-0000000000018480  w    F .text  000000000000004c              .hidden _ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EEC2Ev
-0000000000018f70  w    F .text  00000000000000c8              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC1IRS5_S9_Lb1EEEOT_OT0_
-0000000000016e90  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEC2ERKS7_
-0000000000018530  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EE7_M_headERS3_
-000000000003ed00 g     F .text  0000000000000180              ids_create_app_event_queue
-0000000000007650 g     F .text  0000000000000068              cJSON_free
-0000000000024570  w    F .text  00000000000000b4              .hidden _ZSt8_DestroyIP7VehicleS0_EvT_S2_RSaIT0_E
-0000000000012e90  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleEC1Ev
-0000000000030a60  w    F .text  0000000000000130              .hidden _ZNSt6vectorI7VehicleSaIS0_EE11_S_max_sizeERKS1_
-0000000000015820  w    F .text  0000000000000068              .hidden _ZNSt9exceptionC2Ev
-000000000001adc0  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEED1Ev
-000000000001f170  w    F .text  0000000000000084              .hidden _ZNSt16allocator_traitsISaI7VehicleEE7destroyIS0_EEvRS1_PT_
-0000000000037aa0  w    F .text  000000000000025c              .hidden _ZN4argh6parserD2Ev
-0000000000005bd0 g     F .text  00000000000003ac              main
-0000000000025080  w    F .text  0000000000000190              .hidden _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EEC2IS3_vEEPS1_
-000000000002e140  w    F .text  0000000000000114              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE5clearEv
-00000000000219d0  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaI4LaneEE10deallocateERS1_PS0_m
-00000000000132b0  w    F .text  0000000000000060              .hidden _ZSt7forwardI13VehicleSampleEOT_RNSt16remove_referenceIS1_E4typeE
-0000000000014a10  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIiED1Ev
-000000000002abf0  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE13_Rb_tree_implISC_Lb1EEC1Ev
-0000000000018160  w    F .text  0000000000000060              .hidden _ZSt7forwardIPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEEOT_RNSt16remove_referenceIS8_E4typeE
-0000000000033d40  w    F .text  0000000000000250              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag
-0000000000023900  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm0EPFvvEJEERT0_RSt11_Tuple_implIXT_EJS2_DpT1_EE
-0000000000015230  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS1_SaIS1_EEEC1ERKS3_
-000000000001d780  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EEC2Ev
-00000000000161d0  w    F .text  0000000000000060              .hidden _ZNKSt22_Optional_payload_baseImE6_M_getEv
-0000000000018590  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EE7_M_headERS4_
-0000000000021cf0  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EEEE10deallocateERSB_PSA_m
-0000000000013e80  w    F .text  0000000000000060              .hidden _ZSt12__niter_baseIP7VehicleET_S2_
-0000000000013520  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIP13VehicleSampleEEvT_S4_
-000000000000e9d0 g     F .text  000000000000071c              _Z11processSideSt6vectorI4LaneSaIS0_EEN2cv3MatEb
-000000000001a140  w    F .text  0000000000000060              .hidden _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED2Ev
-000000000000ad10 g     F .text  000000000000008c              cJSON_ReplaceItemInObjectCaseSensitive
-000000000001b910  w    F .text  000000000000008c              .hidden _ZNSt22_Optional_payload_baseImEC2Ev
-0000000000015d20  w    F .text  000000000000006c              .hidden _ZN2cv5Size_IiEC1Eii
-0000000000014a60  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneEC1Ev
-00000000000074e0 g     F .text  0000000000000074              cJSON_IsObject
-000000000001cb00  w    F .text  00000000000000dc              .hidden _ZN2cv3PtrINS_2ml6RTreesEEC2ERKS3_
-0000000000019bf0  w    F .text  000000000000006c              .hidden _ZN3zmq7error_tD2Ev
-0000000000013af0  w    F .text  000000000000006c              .hidden _ZNSt6vectorIN2cv5Rect_IiEESaIS2_EEixEm
-000000000001c730  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseIiSaIiEE12_Vector_implD2Ev
-0000000000014420  w    F .text  0000000000000064              .hidden _ZSt10__distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_St26random_access_iterator_tag
-0000000000022690  w    F .text  0000000000000198              .hidden _ZNSt6thread8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_bES7_S7_bEEED2Ev
-000000000000f0f0 g     F .text  0000000000000978              _Z12processLanesRKN2cv11_InputArrayENS_3MatES3_
-0000000000013c30  w    F .text  0000000000000060              .hidden _ZSt7forwardIRK7VehicleEOT_RNSt16remove_referenceIS3_E4typeE
-0000000000033bb0  w    F .text  000000000000009c              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPKcEEvT_S8_St12__false_type
-00000000000165a0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEEC1Ev
-0000000000038890  w    F .text  00000000000000ec              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE16_M_emplace_equalIJRS5_EEESt17_Rb_tree_iteratorIS5_EDpOT_
-00000000000080a4 g     F .text  0000000000000074              cJSON_CreateObject
-0000000000014300  w    F .text  0000000000000060              .hidden _ZSt11__addressofIcEPT_RS0_
-00000000000303e0  w    F .text  00000000000000d4              .hidden _ZN2cv11_InputArrayC2ERKNS_3MatE
-0000000000006e50 g     F .text  00000000000000fc              cJSON_ReplaceItemViaPointer
-0000000000014a10  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIiED2Ev
-0000000000031430  w    F .text  000000000000038c              .hidden _ZNSt6threadC2IRFvvEJEvEEOT_DpOT0_
-000000000000e504 g     F .text  00000000000002f0              _Z9setParamsNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-00000000000220b0  w    F .text  0000000000000130              .hidden _ZNSt11_Tuple_implILm0EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEED1Ev
-0000000000037210  w    F .text  0000000000000134              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IPcvEET_S7_RKS3_
-0000000000033c50  w    F .text  00000000000000e4              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_
-0000000000006000 g     F .text  0000000000000034              _start
-000000000000e7f4 g     F .text  00000000000001d8              _Z13FindResponsesN2cv3MatEiiiRSt6vectorIiSaIiEE
-0000000000028000  w    F .text  00000000000001a0              .hidden _ZNSt8optionalImEC2ImLb1EEEOT_
-0000000000020500  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE12_Vector_implC2ERKS1_
-0000000000020130  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EEC1Ev
-000000000001cfb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE12_Vector_implC1Ev
-00000000000137b0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleED2Ev
-0000000000015490  w    F .text  0000000000000104              .hidden _ZNSt8__detail14__to_chars_lenIjEEjT_i
-000000000001a2a0  w    F .text  000000000000006c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED1Ev
-00000000000240a0  w    F .text  000000000000010c              .hidden _ZNSt27__uninitialized_default_n_1ILb0EE18__uninit_default_nIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmEET_S9_T0_
-0000000000015ae0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS2_
-0000000000009c30 g     F .text  00000000000000b4              cJSON_Parse
-00000000000194a0  w    F .text  00000000000000a0              .hidden _ZNK2cv3MatclERKNS_5Rect_IiEE
-0000000000014700  w    F .text  000000000000006c              .hidden _ZNSt6vectorIiSaIiEEixEm
-000000000001b1b0  w    F .text  0000000000000084              .hidden _ZNSaIN2cv5Rect_IiEEEC2Ev
-000000000001f200  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIP4LaneEvT_S2_
-0000000000017330  w    F .text  0000000000000060              .hidden _ZSt7forwardIRPSt18_Rb_tree_node_baseEOT_RNSt16remove_referenceIS3_E4typeE
-000000000002e490  w    F .text  00000000000001a0              .hidden _ZNSt6vectorI7VehicleSaIS0_EED1Ev
-0000000000039b40  w    F .text  00000000000001ac              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_default_appendEm
-000000000001e160  w    F .text  0000000000000160              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1Ev
-0000000000019c60  w    F .text  0000000000000070              .hidden _ZNK3zmq7error_t4whatEv
-000000000002df10  w    F .text  0000000000000228              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E
-0000000000008d70 g     F .text  00000000000000a8              cJSON_CreateObjectReference
-0000000000037350  w    F .text  0000000000000134              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEmcRKS3_
-000000000001dd70  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC2Ev
-000000000001a8b0  w    F .text  0000000000000084              .hidden _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev
-0000000000022f70  w    F .text  00000000000001e8              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEED2Ev
-0000000000008624 g     F .text  000000000000007c              cJSON_GetObjectItem
-00000000000181c0  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EE7_M_headERS6_
-000000000001c5b0  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE12_Vector_implD2Ev
-000000000002c700  w    F .text  0000000000000190              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EEC2Ev
-000000000002e7c0  w    F .text  000000000000018c              .hidden _ZNSt6vectorIN2cv5Rect_IiEESaIS2_EED2Ev
-000000000001adc0  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEED2Ev
-000000000001ecf0  w    F .text  0000000000000090              .hidden _ZNK9__gnu_cxx16__aligned_membufINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE6_M_ptrEv
-0000000000031fb0  w    F .text  0000000000000144              .hidden _ZNSt6vectorI13VehicleSampleSaIS0_EE14_S_do_relocateEPS0_S3_S3_RS1_St17integral_constantIbLb1EE
-000000000000d450 g     F .text  00000000000000f4              _Z3mulN2cv6Point_IfEES1_
-0000000000017b30  w    F .text  0000000000000058              .hidden _ZNK9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEE11_M_max_sizeEv
-000000000002cee0  w    F .text  00000000000001c8              .hidden _ZNSt3setINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EEC2Ev
-0000000000033140  w    F .text  0000000000000250              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
-0000000000015de0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE17_Vector_impl_dataC2Ev
-00000000000129e0  w    F .text  000000000000006c              .hidden _ZSt3maxImERKT_S2_S2_
-0000000000008b30 g     F .text  00000000000000b8              cJSON_GetStringValue
-0000000000005b40 g     F .text  0000000000000024              __disconnect_from_bgn_ids
-00000000000150d0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneE7destroyIS1_EEvPT_
-0000000000031970  w    F .text  00000000000000d4              .hidden _ZSt5beginINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEDTcldtfp_5beginEERT_
-0000000000022010  w    F .text  0000000000000094              .hidden _ZNKSt8optionalImEcvbEv
-000000000002c470  w    F .text  0000000000000100              .hidden _ZSt14__copy_move_a1ILb0EP13VehicleSampleS1_ET1_T0_S3_S2_
-000000000001d0b0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implC1Ev
-0000000000026920  w    F .text  0000000000000108              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
-000000000000c2b0 g     F .text  000000000000012c              cJSON_PrintBuffered
-000000000000d8b4 g     F .text  000000000000017c              _Z4cropN2cv3MatES0_NS_5Rect_IiEE
-0000000000015820  w    F .text  0000000000000068              .hidden _ZNSt9exceptionC1Ev
-000000000000aa70 g     F .text  00000000000000d0              cJSON_GetArrayItem
-00000000000166f0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_Vector_impl_dataC1Ev
-00000000000197b0  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv5Rect_IiEEE10deallocateEPS3_m
-000000000001e2c0  w    F .text  0000000000000160              .hidden _ZNSt6vectorIN2cv5Rect_IiEESaIS2_EEC2Ev
-000000000001b7d0  w    F .text  0000000000000094              .hidden _ZNSt6vectorIiSaIiEE5beginEv
-000000000001bf70  w    F .text  000000000000009c              .hidden _ZNSt12__shared_ptrIN2cv2ml6RTreesELN9__gnu_cxx12_Lock_policyE2EEC1ERKS5_
-000000000001d2b0  w    F .text  00000000000000f4              .hidden _ZNSt14_Optional_baseImLb1ELb1EEC2Ev
-0000000000020c30  w    F .text  00000000000000d4              .hidden _ZNSt12_Destroy_auxILb0EE9__destroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEvT_S9_
-00000000000146a0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIiSaIiEE17_Vector_impl_dataC2Ev
-000000000000fa70 g     F .text  00000000000001c0              _Z23removeOldVehicleSamplesj
-00000000000193f0  w    F .text  00000000000000ac              .hidden _ZNK4argh6parser10bad_streamB5cxx11Ev
-00000000000176e0  w    F .text  0000000000000060              .hidden _ZNSt23_Rb_tree_const_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1EPKSt18_Rb_tree_node_base
-00000000000186c0  w    F .text  0000000000000060              .hidden _ZSt4moveIRSt5tupleIJPFvvEEEEONSt16remove_referenceIT_E4typeEOS6_
-0000000000031a50  w    F .text  00000000000000d0              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9constructIS6_JS6_EEEvPT_DpOT0_
-0000000000026770  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE12_Vector_implD2Ev
-00000000000196d0  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleE10deallocateEPS1_m
-00000000000135e0  w    F .text  0000000000000060              .hidden _ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS2_SaIS2_EEEEET_S9_
-000000000002e260  w    F .text  0000000000000108              .hidden _ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
-00000000000175a0  w    F .text  0000000000000060              .hidden _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE6_M_endEv
-00000000000169b0  w    F .text  0000000000000064              .hidden _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE9_M_mbeginEv
-0000000000020260  w    F .text  0000000000000160              .hidden _ZNSt6vectorI4LaneSaIS0_EEC2Ev
-000000000001f290  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIN9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS2_SaIS2_EEEEEvT_S8_
-000000000001f440  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm2EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbEE7_M_headERS6_
-000000000001ca50  w    F .text  00000000000000a8              .hidden _ZNSt10shared_ptrIN2cv2ml6RTreesEED1Ev
-00000000000208b0  w    F .text  000000000000008c              .hidden _ZNK9__gnu_cxx13new_allocatorIiE8max_sizeEv
-000000000001aaf0  w    F .text  0000000000000084              .hidden _ZNSaIN2cv3VecIiLi4EEEEC1Ev
-0000000000013fa0  w    F .text  0000000000000060              .hidden _ZSt7forwardI7VehicleEOT_RNSt16remove_referenceIS1_E4typeE
-0000000000016880  w    F .text  0000000000000064              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE7_S_leftEPSt18_Rb_tree_node_base
-0000000000027e00  w    F .text  000000000000009c              .hidden _ZNSt10_Head_baseILm3EbLb0EEC2IRbEEOT_
-0000000000023dd0  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJbEERT0_RSt11_Tuple_implIXT_EJS6_DpT1_EE
-00000000000231d0  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm0EPNSt6thread6_StateEJSt14default_deleteIS1_EEERT0_RSt11_Tuple_implIXT_EJS5_DpT1_EE
-00000000000301e0  w    F .text  00000000000000c0              .hidden _ZN2cv12_OutputArrayC2INS_3VecIiLi4EEEEERSt6vectorIT_SaIS5_EE
-0000000000036080  w    F .text  00000000000002ac              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE23_M_get_insert_equal_posERS7_
-0000000000016d40  w    F .text  0000000000000090              .hidden _ZSt10_ConstructINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJEEvPT_DpOT0_
-000000000000a990 g     F .text  00000000000000e0              cJSON_AddArrayToObject
-0000000000013690  w    F .text  0000000000000060              .hidden _ZSt12__miter_baseIP13VehicleSampleET_S2_
-00000000000134c0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS1_SaIS1_EEE4baseEv
-000000000000da30 g     F .text  000000000000031c              _Z12vehicleValidN2cv3MatES0_P7VehicleRi
-000000000002c570  w    F .text  0000000000000190              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EEC2Ev
-0000000000013570  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS1_SaIS1_EEEC2ERKS3_
-0000000000034410  w    F .text  00000000000002b8              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEEC2IJRS9_RS8_SG_RbEEEDpOT_
-0000000000009484 g     F .text  0000000000000098              cJSON_ParseWithOpts
-00000000000191b0  w    F .text  0000000000000090              .hidden _ZNSt10_Head_baseILm2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EEC2IRS5_EEOT_
-0000000000024330  w    F .text  00000000000000b4              .hidden _ZSt8_DestroyIP4LaneS0_EvT_S2_RSaIT0_E
-000000000001ae50  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEED2Ev
-0000000000013450  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS1_SaIS1_EEEppEv
-0000000000016810  w    F .text  0000000000000064              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_S_rightEPSt18_Rb_tree_node_base
-00000000000133e0  w    F .text  0000000000000064              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS1_SaIS1_EEEdeEv
-0000000000020130  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EEC2Ev
-0000000000009520 g     F .text  0000000000000080              cJSON_ParseWithLength
-00000000000160f0  w    F .text  0000000000000064              .hidden _ZNK3zmq14mutable_buffer4sizeEv
-0000000000016ce0  w    F .text  0000000000000054              .hidden _ZNK9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE11_M_max_sizeEv
-000000000001c5b0  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE12_Vector_implD1Ev
-0000000000014c60  w    F .text  0000000000000060              .hidden _ZSt4fabsf
-000000000001dc40  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EEC1Ev
-000000000002b0f0  w    F .text  0000000000000118              .hidden _ZSt12__relocate_aIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_SaIS5_EET0_T_S9_S8_RT1_
-0000000000018410  w    F .text  0000000000000064              .hidden _ZNSt10_Head_baseILm0EPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bELb0EEC1ERKS7_
-0000000000016a20  w    F .text  0000000000000064              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_S_rightEPSt18_Rb_tree_node_base
-0000000000018a80  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE17_Vector_impl_dataC1Ev
-0000000000014ab0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE17_Vector_impl_dataC1Ev
-0000000000015710  w    F .text  0000000000000064              .hidden _ZSt10__distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_St26random_access_iterator_tag
-000000000001e160  w    F .text  0000000000000160              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC2Ev
-000000000002ffa0  w    F .text  00000000000000c4              .hidden _ZN2cv11_InputArrayC1Ev
-0000000000008cc0 g     F .text  00000000000000a8              cJSON_CreateStringReference
-0000000000019240  w    F .text  0000000000000090              .hidden _ZNSt10_Head_baseILm1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EEC1IRS5_EEOT_
-0000000000017ad0  w    F .text  0000000000000060              .hidden _ZSt7forwardISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEOT_RNSt16remove_referenceIS9_E4typeE
-000000000001d3b0  w    F .text  00000000000000dc              .hidden _ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEEC2Ev
-0000000000034cd0  w    F .text  0000000000000168              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
-0000000000015890  w    F .text  0000000000000060              .hidden _ZN3zmq6detail11socket_baseC1EPv
-000000000003eb30 g     F .text  0000000000000198              ids_create_perf_queue
-00000000000145f0  w    F .text  0000000000000060              .hidden _ZN2cv17_InputOutputArrayD2Ev
-000000000003bd10  w    F .text  0000000000000144              .hidden _ZNSt16allocator_traitsISaI7VehicleEE8allocateERS1_m
-0000000000012b80  w    F .text  000000000000006c              .hidden _ZSt3minImERKT_S2_S2_
-0000000000018840  w    F .text  0000000000000064              .hidden _ZNSt10_Head_baseILm0EPFvvELb0EEC1ERKS1_
-0000000000016950  w    F .text  0000000000000060              .hidden _ZN9__gnu_cxx16__aligned_membufINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7_M_addrEv
-000000000002cd10  w    F .text  00000000000001c8              .hidden _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EEC1Ev
-00000000000099a0 g     F .text  00000000000000b8              cJSON_HasObjectItem
-00000000000166a0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2Ev
-000000000001cdb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE12_Vector_implC1Ev
-000000000001c430  w    F .text  00000000000000b4              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE13_Rb_tree_implISC_Lb1EED1Ev
-000000000001a140  w    F .text  0000000000000060              .hidden _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EED1Ev
-000000000001aa60  w    F .text  0000000000000084              .hidden _ZNSaI4LaneEC2Ev
-0000000000012b20  w    F .text  0000000000000054              .hidden _ZNK9__gnu_cxx13new_allocatorIiE11_M_max_sizeEv
-0000000000016530  w    F .text  0000000000000064              .hidden _ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
-000000000003e8e0 g     F .text  00000000000000dc              ids_open_perf_queue
-000000000001ec60  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIPN2cv5Rect_IiEEEvT_S4_
-0000000000037900  w    F .text  00000000000001a0              .hidden _ZNSt6vectorI4LaneSaIS0_EED2Ev
-00000000000284c0  w    F .text  00000000000000d4              .hidden _ZSt5beginINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEDTcldtfp_5beginEERKT_
-0000000000017390  w    F .text  0000000000000060              .hidden _ZNSt17_Rb_tree_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2EPSt18_Rb_tree_node_base
-0000000000018970  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleED2Ev
-000000000003cb60  w    F .text  0000000000000158              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE15_M_insert_equalIS8_EESt17_Rb_tree_iteratorIS8_EOT_
-000000000001c730  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseIiSaIiEE12_Vector_implD1Ev
-00000000000282c0  w    F .text  0000000000000094              .hidden _ZNSt15_Rb_tree_headerC2Ev
-0000000000013b60  w    F .text  000000000000005c              .hidden _ZN2cv6Point_IiEC2Ev
-00000000000146a0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIiSaIiEE17_Vector_impl_dataC1Ev
-0000000000029c10  w    F .text  0000000000000190              _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE14_M_lower_boundEPKSt13_Rb_tree_nodeIS5_EPKSt18_Rb_tree_node_baseRKS5_
-000000000001f920  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE12_Vector_implC1Ev
-000000000001bc10  w    F .text  00000000000000ac              .hidden _ZN3zmq9context_tC2Ev
-00000000000199e0  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE10deallocateEPS6_m
-0000000000033ac0  w    F .text  00000000000000f0              .hidden _ZSt6any_ofIPKPKcZNK4argh6parserixESt16initializer_listIS2_EEUlS1_E_EbT_S9_T0_
-0000000000035330  w    F .text  0000000000000198              .hidden _ZNSt8multimapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St4lessIS5_ESaISt4pairIKS5_S5_EEED2Ev
-0000000000035620  w    F .text  000000000000030c              .hidden _ZNSt6threadC2IRFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_bEJRS6_S9_RbEvEEOT_DpOT0_
-0000000000018720  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm0EPFvvELb0EE7_M_headERS2_
-0000000000018340  w    F .text  0000000000000060              .hidden _ZSt7forwardIbEOT_RNSt16remove_referenceIS0_E4typeE
-0000000000036330  w    F .text  0000000000000128              .hidden _ZSt3getILm2EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOSC_
-0000000000015d90  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv3VecIiLi4EEEEC1Ev
-000000000001d8b0  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EEC1Ev
-0000000000018410  w    F .text  0000000000000064              .hidden _ZNSt10_Head_baseILm0EPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bELb0EEC2ERKS7_
-000000000002e950  w    F .text  000000000000018c              .hidden _ZNSt6vectorIN2cv3VecIiLi4EEESaIS2_EED2Ev
-0000000000014650  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIiEC1Ev
-000000000003bf90  w    F .text  0000000000000130              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EEEE8allocateERSB_m
-000000000002cb70  w    F .text  00000000000000a4              .hidden _ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
-0000000000019970  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEE10deallocateEPSB_m
-000000000001b000  w    F .text  0000000000000084              .hidden _ZNSaI4LaneED2Ev
-000000000003c9c0  w    F .text  00000000000001a0              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE10_M_insert_IS8_NSE_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS8_EPSt18_Rb_tree_node_baseSK_OT_RT0_
-0000000000012ac0  w    F .text  0000000000000060              .hidden _ZNKSt12_Vector_baseIiSaIiEE19_M_get_Tp_allocatorEv
-000000000001c7f0  w    F .text  00000000000000b4              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE13_Rb_tree_implIS9_Lb1EED2Ev
-00000000000221e0  w    F .text  000000000000017c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEC2IJRS3_EEEDpOT_
-00000000000179b0  w    F .text  0000000000000060              .hidden _ZNKSt10_Select1stISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEclERKS8_
-0000000000021b10  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE10deallocateERS6_PS5_m
-000000000001e6e0  w    F .text  00000000000000f8              .hidden _ZNSt5tupleIJPNSt6thread6_StateESt14default_deleteIS1_EEEC1ILb1ELb1EEEv
-000000000001d3b0  w    F .text  00000000000000dc              .hidden _ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEEC1Ev
-000000000001aa60  w    F .text  0000000000000084              .hidden _ZNSaI4LaneEC1Ev
-0000000000015c30  w    F .text  0000000000000064              .hidden _ZNK3zmq12const_buffer4sizeEv
-000000000001b240  w    F .text  0000000000000084              .hidden _ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEEC2Ev
-000000000000b070 g     F .text  0000000000000130              cJSON_InsertItemInArray
-000000000002a110  w    F .text  0000000000000208              _ZSt9transformIPKPKcN9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorISB_SaISB_EEEEZN4argh6parser5parseEiS3_iEUlS1_E_ET0_T_SL_SK_T1_
-0000000000029440  w    F .text  00000000000000c8              .hidden _ZNSt16allocator_traitsISaIcEE37select_on_container_copy_constructionERKS0_
-000000000001a430  w    F .text  000000000000007c              .hidden _ZN3zmq9message_tC2Ev
-000000000001e870  w    F .text  0000000000000090              .hidden _ZSt9addressofIKcEPT_RS1_
-00000000000350b0  w    F .text  0000000000000114              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE5clearEv
-000000000001eb40  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIP13VehicleSampleEvT_S2_
-00000000000062d0 g     F .text  00000000000000d4              cJSON_Delete
-0000000000031280  w    F .text  00000000000001a4              .hidden _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED2Ev
-000000000001ee10  w    F .text  0000000000000090              .hidden _ZN9__gnu_cxx16__aligned_membufISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EE6_M_ptrEv
-0000000000012970  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEEC1ERKS1_
-0000000000007f64 g     F .text  00000000000000c8              cJSON_CreateNumber
-000000000001e420  w    F .text  0000000000000160              .hidden _ZNSt6vectorIiSaIiEEC2Ev
-0000000000014530  w    F .text  0000000000000060              .hidden _ZSt11__addressofIKcEPT_RS1_
-0000000000014360  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIcEC2ERKS1_
-0000000000025080  w    F .text  0000000000000190              .hidden _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EEC1IS3_vEEPS1_
-0000000000015a20  w    F .text  000000000000004c              .hidden _ZNSt22_Optional_payload_baseImE8_StorageImLb1EEC1Ev
-0000000000029130  w    F .text  00000000000000c4              .hidden _ZNSt6threadD2Ev
-0000000000021f80  w    F .text  0000000000000090              _ZSt12__niter_baseIPK13VehicleSampleSt6vectorIS0_SaIS0_EEET_N9__gnu_cxx17__normal_iteratorIS6_T0_EE
-0000000000014240  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv5Rect_IiEEED1Ev
-00000000000153e0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS1_SaIS1_EEE4baseEv
-000000000001c370  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implD1Ev
-0000000000018920  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIP7VehicleEEvT_S4_
-0000000000028760  w    F .text  00000000000000a4              .hidden _ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS2_SaIS2_EEEEPS2_ET0_T_SB_SA_
-0000000000015070  w    F .text  0000000000000060              .hidden _ZSt11__addressofI4LaneEPT_RS1_
-00000000000122e0  w    F .text  0000000000000078              .hidden _ZN9__gnu_cxx25__exchange_and_add_singleEPii
-0000000000013750  w    F .text  0000000000000060              .hidden _ZSt7forwardIR13VehicleSampleEOT_RNSt16remove_referenceIS2_E4typeE
-0000000000014bf0  w    F .text  0000000000000064              .hidden _ZN2cv3VecIiLi4EEixEi
-000000000000a860 g     F .text  0000000000000128              cJSON_SetValuestring
-00000000000063a4 g     F .text  00000000000000a0              cJSON_SetNumberHelper
-000000000000ac80 g     F .text  000000000000008c              cJSON_ReplaceItemInObject
-0000000000016b60  w    F .text  0000000000000060              .hidden _ZN9__gnu_cxx16__aligned_membufISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EE7_M_addrEv
-00000000000174d0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4baseEv
-000000000003df60  w    F .text  00000000000000cc              .hidden _ZNKSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EE3endEv
-0000000000014290  w    F .text  0000000000000064              .hidden _ZN2cv4MatxIdLi4ELi1EEC2Ev
-00000000000187e0  w    F .text  0000000000000060              .hidden _ZSt7forwardIRFvvEEOT_RNSt16remove_referenceIS2_E4typeE
-000000000001b120  w    F .text  0000000000000084              .hidden _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev
-000000000001ebd0  w    F .text  0000000000000084              .hidden _ZNSt16allocator_traitsISaI13VehicleSampleEE7destroyIS0_EEvRS1_PT_
-00000000000218d0  w    F .text  0000000000000100              .hidden _ZNSt11_Tuple_implILm1EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEED2Ev
-0000000000023d00  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm3EbJEERT0_RSt11_Tuple_implIXT_EJS0_DpT1_EE
-0000000000014cc0  w    F .text  0000000000000098              .hidden _ZN4LaneC1EN2cv6Point_IiEES2_fff
-000000000003b3c0  w    F .text  00000000000001b4              _ZN3zmq6detail26buffer_contiguous_sequenceIRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEDTcl6buffercl9addressofdecl5beginfp_EEtlmEEEOT_
-0000000000012910  w    F .text  0000000000000060              .hidden _ZnwmPv
-000000000003ea20 g     F .text  00000000000000e0              ids_open_app_event_queue
-00000000000166f0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_Vector_impl_dataC2Ev
-0000000000032890  w    F .text  00000000000000d8              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC1IS5_S5_Lb1EEEOT_OT0_
-000000000000b4a0 g     F .text  0000000000000184              cJSON_CreateFloatArray
-0000000000027ac0  w    F .text  0000000000000134              .hidden _ZNSt20__uninitialized_copyILb0EE13__uninit_copyIP13VehicleSampleS3_EET0_T_S5_S4_
-0000000000015440  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIP4LaneEEvT_S4_
-000000000001c200  w    F .text  00000000000000cc              .hidden _ZNSt5tupleIJPFvvEEEC2ILb1ELb1EEERKS1_
-000000000002fc40  w    F .text  0000000000000098              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEE7destroyISA_EEvPT_
-000000000001a6f0  w    F .text  0000000000000084              .hidden _ZNSaI4LaneEC1ERKS0_
-0000000000013900  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv5Rect_IiEEEC1Ev
-0000000000012cb0  w    F .text  0000000000000060              .hidden _ZSt12__niter_baseIPiET_S1_
-0000000000020a70  w    F .text  0000000000000098              .hidden _ZN9__gnu_cxx5__ops10_Iter_predIZNK4argh6parserixESt16initializer_listIKPKcEEUlS6_E_EC2ES9_
-000000000001e580  w    F .text  0000000000000160              .hidden _ZNSt6vectorIN2cv3VecIiLi4EEESaIS2_EEC2Ev
-000000000000a620 g     F .text  00000000000000e0              cJSON_AddObjectToObject
-000000000001b2d0  w    F .text  0000000000000094              .hidden _ZNSt6vectorIiSaIiEE3endEv
-0000000000013d00  w    F .text  0000000000000060              .hidden _ZNKSt12_Vector_baseI7VehicleSaIS0_EE19_M_get_Tp_allocatorEv
-00000000000131f0  w    F .text  0000000000000060              .hidden _ZSt11__addressofI13VehicleSampleEPT_RS1_
-0000000000027000  w    F .text  0000000000000108              .hidden _ZNSt12_Vector_baseIiSaIiEED2Ev
-000000000001eea0  w    F .text  0000000000000090              .hidden _ZN9__gnu_cxx16__aligned_membufINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE6_M_ptrEv
-0000000000019820  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneE10deallocateEPS1_m
-000000000001b090  w    F .text  0000000000000084              .hidden _ZNSaIN2cv3VecIiLi4EEEED2Ev
-0000000000017b90  w    F .text  0000000000000060              .hidden _ZNSt17_Rb_tree_iteratorISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEC1EPSt18_Rb_tree_node_base
-000000000000af84 g     F .text  00000000000000ec              cJSON_ReplaceItemInArray
-0000000000020ed0  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxxeqIPKN2cv5Rect_IiEESt6vectorIS3_SaIS3_EEEEbRKNS_17__normal_iteratorIT_T0_EESE_
-00000000000136f0  w    F .text  0000000000000060              .hidden _ZSt12__niter_wrapIP13VehicleSampleET_RKS2_S2_
-0000000000036f30  w    F .text  0000000000000164              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EED1Ev
-0000000000031b20  w    F .text  00000000000000d0              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE9constructIS7_JS7_EEEvPT_DpOT0_
-0000000000014ab0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE17_Vector_impl_dataC2Ev
-0000000000016010  w    F .text  0000000000000064              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEdeEv
-000000000001a780  w    F .text  000000000000009c              .hidden _ZNSt11_Tuple_implILm0EJPFvvEEEC1ERKS1_
-0000000000012fa0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS1_SaIS1_EEEC1ERKS2_
-0000000000026490  w    F .text  000000000000010c              .hidden _ZNSt17_Optional_payloadImLb1ELb1ELb1EECI1St22_Optional_payload_baseImEIJmEEESt10in_place_tDpOT_
-000000000001dea0  w    F .text  0000000000000160              .hidden _ZNSt6vectorI7VehicleSaIS0_EEC2Ev
-0000000000021090  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JS1_EEEvPT_DpOT0_
-00000000000184d0  w    F .text  000000000000005c              .hidden _ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EEC2Ev
-000000000003c570  w    F .text  00000000000000d0              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEE6_M_runEv
-0000000000030ed0  w    F .text  00000000000001e8              .hidden _ZSt19__relocate_object_aINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_SaIS5_EEvPT_PT0_RT1_
-0000000000018220  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EE7_M_headERS6_
-000000000001f0e0  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIPN2cv3VecIiLi4EEEEvT_S4_
-000000000001d2b0  w    F .text  00000000000000f4              .hidden _ZNSt14_Optional_baseImLb1ELb1EEC1Ev
-0000000000014ef0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx13new_allocatorI4LaneE11_M_max_sizeEv
-0000000000026920  w    F .text  0000000000000108              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev
-000000000001d1b0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseIiSaIiEE12_Vector_implC1Ev
-0000000000018d40  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EED2Ev
-0000000000023ea0  w    F .text  000000000000009c              .hidden _ZNSt22_Optional_payload_baseImE8_StorageImLb1EEC1IJmEEESt10in_place_tDpOT_
-00000000000218d0  w    F .text  0000000000000100              .hidden _ZNSt11_Tuple_implILm1EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEED1Ev
-000000000000a130 g     F .text  00000000000000b0              cJSON_AddItemReferenceToObject
-0000000000014cc0  w    F .text  0000000000000098              .hidden _ZN4LaneC2EN2cv6Point_IiEES2_fff
-00000000000125d0  w    F .text  000000000000006c              .hidden _ZN2cv6Point_IfEC2Eff
-000000000001ccb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE12_Vector_implC1Ev
-0000000000027ea0  w    F .text  0000000000000160              .hidden _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EE11get_deleterEv
-000000000003a0d0  w    F .text  00000000000002d8              _ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_
-00000000000167a0  w    F .text  0000000000000064              .hidden _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE9_M_mbeginEv
-0000000000032dd0  w    F .text  0000000000000298              .hidden _ZNSt11_Tuple_implILm1EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEEC1IRS5_JS8_RbEvEEOT_DpOT0_
-000000000001d6b0  w    F .text  00000000000000cc              .hidden _ZN2cv3PtrINS_2ml6RTreesEED2Ev
-000000000001f320  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm0EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEE7_M_headERS8_
-0000000000027d30  w    F .text  00000000000000c8              .hidden _ZNSt14pointer_traitsIPcE10pointer_toERc
-000000000001ab80  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEEC1Ev
-0000000000027200  w    F .text  000000000000011c              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EED1Ev
-000000000001a9d0  w    F .text  0000000000000084              .hidden _ZNSaIN2cv5Rect_IiEEED1Ev
-0000000000022830  w    F .text  00000000000000a4              .hidden _ZSt13__invoke_implIvPFvvEJEET_St14__invoke_otherOT0_DpOT1_
-0000000000012e90  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleEC2Ev
-0000000000023f40  w    F .text  00000000000000a8              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED0Ev
-0000000000023500  w    F .text  00000000000000bc              .hidden _ZNSt16allocator_traitsISaIiEE8max_sizeERKS0_
-0000000000017670  w    F .text  0000000000000064              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_S_rightEPKSt18_Rb_tree_node_base
-00000000000301e0  w    F .text  00000000000000c0              .hidden _ZN2cv12_OutputArrayC1INS_3VecIiLi4EEEEERSt6vectorIT_SaIS5_EE
-0000000000014240  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv5Rect_IiEEED2Ev
-0000000000029700  w    F .text  00000000000000fc              .hidden _ZNSt10lock_guardISt5mutexED2Ev
-0000000000014490  w    F .text  000000000000009c              .hidden _ZSt8distanceIPKcENSt15iterator_traitsIT_E15difference_typeES3_S3_
-00000000000166a0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1Ev
-0000000000018c70  w    F .text  0000000000000068              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ED2Ev
-0000000000015a70  w    F .text  0000000000000070              .hidden _ZN3zmq6detail8seq_sizeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEDTcldtfp_4sizeEERKT_
-0000000000017cb0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEED2Ev
-000000000002c890  w    F .text  000000000000011c              .hidden _ZSt8_DestroyIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvT_S7_
-00000000000232a0  w    F .text  00000000000000c8              .hidden _ZNSt16allocator_traitsISaI7VehicleEE8max_sizeERKS1_
-0000000000031e50  w    F .text  0000000000000084              .hidden _ZNSt6thread8_InvokerISt5tupleIJPFvvEEEEclEv
-0000000000032890  w    F .text  00000000000000d8              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2IS5_S5_Lb1EEEOT_OT0_
-0000000000023b60  w    F .text  00000000000000c8              .hidden _ZNSt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EE9_M_valptrEv
-0000000000039060  w    F .text  0000000000000278              _ZNSt6vectorI4LaneSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-0000000000021c50  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaIiEE10deallocateERS0_Pim
-00000000000247f0  w    F .text  00000000000000f8              .hidden _ZSt3getILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERS9_
-0000000000026df0  w    F .text  0000000000000114              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EED2Ev
-0000000000015190  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneEC2ERKS2_
-0000000000008ac0 g     F .text  000000000000006c              cJSON_DeleteItemFromObjectCaseSensitive
-000000000001a820  w    F .text  0000000000000084              .hidden _ZNSaIiED1Ev
-000000000001dea0  w    F .text  0000000000000160              .hidden _ZNSt6vectorI7VehicleSaIS0_EEC1Ev
-0000000000019740  w    F .text  0000000000000070              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleE10deallocateEPS1_m
-00000000000183a0  w    F .text  0000000000000068              .hidden _ZNSt6thread6_StateC2Ev
-00000000000188b0  w    F .text  000000000000006c              .hidden _ZSteqNSt6thread2idES0_
-0000000000034120  w    F .text  0000000000000204              _ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z
-000000000001b240  w    F .text  0000000000000084              .hidden _ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEEC1Ev
-000000000001e000  w    F .text  0000000000000160              .hidden _ZNSt6vectorI13VehicleSampleSaIS0_EEC2Ev
-0000000000013640  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIN9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS4_SaIS4_EEEEEEvT_SA_
-0000000000017740  w    F .text  0000000000000074              .hidden _ZSteqRKSt23_Rb_tree_const_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES8_
-000000000001c140  w    F .text  00000000000000c0              .hidden _ZNSt10shared_ptrIN2cv2ml6RTreesEEC2ERKS3_
-0000000000034cd0  w    F .text  0000000000000168              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
-000000000001baf0  w    F .text  0000000000000120              .hidden _ZN3zmq9context_tC2Eii
-00000000000302a0  w    F .text  0000000000000134              .hidden _ZN2cv17_InputOutputArrayC2ERNS_3MatE
-000000000000be10 g     F .text  000000000000007c              cJSON_PrintUnformatted
-0000000000012970  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEEC2ERKS1_
-0000000000007120 g     F .text  0000000000000074              cJSON_IsInvalid
-0000000000019d40  w    F .text  0000000000000070              .hidden _ZNK3zmq9message_t4dataEv
-00000000000076c0 g     F .text  000000000000008c              cJSON_Version
-000000000002f000  w    F .text  000000000000010c              .hidden _ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
-000000000000a094 g     F .text  0000000000000094              cJSON_AddItemToObjectCS
-0000000000016370  w    F .text  0000000000000064              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
-0000000000021e40  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaI13VehicleSampleEE10deallocateERS1_PS0_m
-000000000001fc60  w    F .text  00000000000000c8              .hidden _ZNSt16allocator_traitsISaI4LaneEE37select_on_container_copy_constructionERKS1_
-0000000000025760  w    F .text  0000000000000090              _ZSt12__niter_baseIP13VehicleSampleSt6vectorIS0_SaIS0_EEET_N9__gnu_cxx17__normal_iteratorIS5_T0_EE
-0000000000017390  w    F .text  0000000000000060              .hidden _ZNSt17_Rb_tree_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1EPSt18_Rb_tree_node_base
-000000000001d490  w    F .text  000000000000012c              .hidden _ZNSt8optionalImEC2Ev
-000000000003ecd0 g     F .text  000000000000002c              ids_destroy_app_event_queue
-0000000000017a70  w    F .text  0000000000000060              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE11_Alloc_nodeC2ERSE_
-000000000001c2d0  w    F .text  000000000000009c              .hidden _ZN2cv3VecIiLi4EEC1ERKS1_
-000000000001db10  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EEC2Ev
-00000000000281a0  w    F .text  000000000000011c              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EED1Ev
-0000000000015fa0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKS1_
-0000000000016080  w    F .text  0000000000000064              .hidden _ZNK3zmq14mutable_buffer4dataEv
-000000000002ad50  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE13_Rb_tree_implIS9_Lb1EEC1Ev
-0000000000015ea0  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIPN2cv3VecIiLi4EEEEEvT_S6_
-00000000000123d0  w    F .text  0000000000000104              .hidden _ZN9__gnu_cxx27__exchange_and_add_dispatchEPii
-0000000000015310  w    F .text  0000000000000060              .hidden _ZSt7forwardIRK4LaneEOT_RNSt16remove_referenceIS3_E4typeE
-0000000000012d10  w    F .text  0000000000000084              .hidden _ZN2cv3Mat2atIhEERT_ii
-00000000000184d0  w    F .text  000000000000005c              .hidden _ZNSt10_Head_baseILm0EPNSt6thread6_StateELb0EEC1Ev
-000000000000a3a0 g     F .text  00000000000000e0              cJSON_AddFalseToObject
-0000000000014050  w    F .text  0000000000000060              .hidden _ZN13VehicleSampleC1Ev
-00000000000185f0  w    F .text  0000000000000060              .hidden _ZSt4moveIRPNSt6thread6_StateEEONSt16remove_referenceIT_E4typeEOS5_
-0000000000013070  w    F .text  0000000000000058              .hidden _ZNK9__gnu_cxx13new_allocatorI13VehicleSampleE11_M_max_sizeEv
-0000000000028dd0  w    F .text  00000000000000e0              .hidden _ZSt12__niter_wrapIN9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS2_SaIS2_EEEES3_ET_S8_T0_
-000000000001dd70  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1Ev
-00000000000275f0  w    F .text  0000000000000138              .hidden _ZSt19__relocate_object_aI4LaneS0_SaIS0_EEvPT_PT0_RT1_
-0000000000032a50  w    F .text  00000000000000c4              .hidden _ZN3zmq8socket_tD2Ev
-0000000000030b90  w    F .text  0000000000000198              .hidden _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EED2Ev
-0000000000027e00  w    F .text  000000000000009c              .hidden _ZNSt10_Head_baseILm3EbLb0EEC1IRbEEOT_
-0000000000017950  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx16__aligned_membufISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EE7_M_addrEv
-0000000000030d30  w    F .text  0000000000000198              .hidden _ZNSt3setINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EED2Ev
-0000000000014190  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE19_M_get_Tp_allocatorEv
-0000000000017a70  w    F .text  0000000000000060              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE11_Alloc_nodeC1ERSE_
-000000000002c700  w    F .text  0000000000000190              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EEC1Ev
-0000000000019ec0  w    F .text  0000000000000068              .hidden _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC1ERKS2_
-000000000001c200  w    F .text  00000000000000cc              .hidden _ZNSt5tupleIJPFvvEEEC1ILb1ELb1EEERKS1_
-00000000000168f0  w    F .text  0000000000000060              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE21_M_get_Node_allocatorEv
-0000000000016e90  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEC1ERKS7_
-000000000002f110  w    F .text  0000000000000374              .hidden _ZNSt6vectorI4LaneSaIS0_EEC2ERKS2_
-0000000000012360  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx19__atomic_add_singleEPii
-000000000001fde0  w    F .text  00000000000000a0              .hidden _ZNK9__gnu_cxx17__normal_iteratorIP4LaneSt6vectorIS1_SaIS1_EEEmiEl
-0000000000019110  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE9constructIS6_JRS6_EEEvRS8_PT_DpOT0_
-0000000000018a30  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleEC1Ev
-0000000000018ae0  w    F .text  0000000000000064              .hidden _ZNSt12__mutex_baseC2Ev
-000000000001c370  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implD2Ev
-000000000001ef30  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm0EJPNSt6thread6_StateESt14default_deleteIS1_EEE7_M_headERS5_
-000000000003baa0  w    F .text  0000000000000140              .hidden _ZNSt16allocator_traitsISaI4LaneEE8allocateERS1_m
-0000000000025e90  w    F .text  00000000000000fc              .hidden _ZNSt22_Optional_payload_baseImEC1IJmEEESt10in_place_tDpOT_
-0000000000029da0  w    F .text  0000000000000160              _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE4findERKS5_
-000000000002f8b0  w    F .text  000000000000012c              .hidden _ZNSt16allocator_traitsISaI13VehicleSampleEE9constructIS0_JS0_EEEvRS1_PT_DpOT0_
-0000000000015120  w    F .text  0000000000000064              .hidden _ZNK9__gnu_cxx17__normal_iteratorIP4LaneSt6vectorIS1_SaIS1_EEEdeEv
-00000000000143b0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__is_null_pointerIKcEEbPT_
-000000000000c4e0 g     F .text  0000000000000298              cJSON_Compare
-0000000000016c80  w    F .text  0000000000000060              .hidden _ZNKSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_get_Tp_allocatorEv
-0000000000033070  w    F .text  00000000000000d0              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EEEE7destroyIS9_EEvRSB_PT_
-0000000000017e90  w    F .text  0000000000000064              .hidden _ZNKSt16initializer_listIKPKcE4sizeEv
-000000000001ac10  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC1Ev
-0000000000014e90  w    F .text  0000000000000060              .hidden _ZNKSt12_Vector_baseI4LaneSaIS0_EE19_M_get_Tp_allocatorEv
-000000000000a570 g     F .text  00000000000000b0              cJSON_AddNumberToObject
-0000000000013dc0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIP7VehicleSt6vectorIS1_SaIS1_EEE4baseEv
-000000000000b320 g     F .text  0000000000000180              cJSON_CreateStringArray
-000000000001ea20  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm0EJPFvvEEE7_M_headERS2_
-000000000003e3b0 g     F .text  00000000000002b4              __cyg_profile_func_enter
-0000000000032710  w    F .text  0000000000000180              .hidden _ZSt18uninitialized_copyIP13VehicleSampleS1_ET0_T_S3_S2_
-000000000000a7b0 g     F .text  00000000000000a8              cJSON_AddRawToObject
-00000000000370a0  w    F .text  0000000000000164              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EED1Ev
-0000000000026120  w    F .text  00000000000000f8              .hidden _ZN9__gnu_cxx14__alloc_traitsISaI4LaneES1_E17_S_select_on_copyERKS2_
-0000000000036f30  w    F .text  0000000000000164              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EED2Ev
-0000000000023690  w    F .text  00000000000000c8              .hidden _ZNKSt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9_M_valptrEv
-0000000000009b30 g     F .text  00000000000000f8              cJSON_DeleteItemFromObject
-000000000001d0b0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12_Vector_implC2Ev
-0000000000017210  w    F .text  0000000000000060              .hidden _ZNKSt9_IdentityINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEclERKS5_
-0000000000007554 g     F .text  0000000000000074              cJSON_IsRaw
-0000000000007300 g     F .text  0000000000000074              cJSON_IsNull
-0000000000007ee4 g     F .text  0000000000000080              cJSON_CreateBool
-000000000000fdf0 g     F .text  00000000000001bc              _Z18removeLostVehiclesj
-0000000000018b50  w    F .text  0000000000000060              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE7destroyIS7_EEvPT_
-0000000000014290  w    F .text  0000000000000064              .hidden _ZN2cv4MatxIdLi4ELi1EEC1Ev
-0000000000019cd0  w    F .text  0000000000000070              .hidden _ZNK3zmq9message_t4sizeEv
-0000000000019900  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE10deallocateEPS8_m
-00000000000304c0  w    F .text  00000000000000d8              .hidden _ZN2cv11_InputArrayC1INS_3VecIiLi4EEEEERKSt6vectorIT_SaIS5_EE
-000000000001ccb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE12_Vector_implC2Ev
-0000000000015230  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS1_SaIS1_EEEC2ERKS3_
-0000000000026490  w    F .text  000000000000010c              .hidden _ZNSt17_Optional_payloadImLb1ELb1ELb1EECI2St22_Optional_payload_baseImEIJmEEESt10in_place_tDpOT_
-000000000001a310  w    F .text  0000000000000090              .hidden _ZN3zmq12const_bufferC1EPKvm
-0000000000016dd0  w    F .text  0000000000000060              .hidden _ZSt12__niter_baseIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEET_S7_
-0000000000006120 g     F .text  0000000000000068              cJSON_GetErrorPtr
-0000000000038160  w    F .text  0000000000000374              .hidden _ZNSt11_Tuple_implILm0EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEC2IRS6_JRS5_SB_RbEvEEOT_DpOT0_
-000000000001ab80  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEEC2Ev
-0000000000014d60  w    F .text  0000000000000060              .hidden _ZSt4moveIR4LaneEONSt16remove_referenceIT_E4typeEOS3_
-000000000001ed80  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm1EJSt14default_deleteINSt6thread6_StateEEEE7_M_headERS4_
-0000000000033a10  w    F .text  00000000000000a8              .hidden _ZSt7none_ofIPKPKcZNK4argh6parserixESt16initializer_listIS2_EEUlS1_E_EbT_S9_T0_
-0000000000014b80  w    F .text  0000000000000064              .hidden _ZN2cv4MatxIiLi4ELi1EEC1EPKi
-0000000000013900  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv5Rect_IiEEEC2Ev
-0000000000038160  w    F .text  0000000000000374              .hidden _ZNSt11_Tuple_implILm0EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEC1IRS6_JRS5_SB_RbEvEEOT_DpOT0_
-00000000000386b0  w    F .text  00000000000000ec              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE16_M_emplace_equalIJS5_EEESt17_Rb_tree_iteratorIS5_EDpOT_
-0000000000029070  w    F .text  00000000000000b4              .hidden _ZSt14__copy_move_a2ILb0EP13VehicleSampleS1_ET1_T0_S3_S2_
-000000000003db60  w    F .text  00000000000003f4              .hidden _ZNSt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEC1IJRS6_RS5_SB_RbELb1ELb1EEEDpOT_
-00000000000206a0  w    F .text  00000000000000d4              .hidden _ZN3zmq12const_bufferC2ERKNS_14mutable_bufferE
-0000000000018da0  w    F .text  0000000000000060              .hidden _ZN16ThreadSafeStringD1Ev
-0000000000037f30  w    F .text  0000000000000224              .hidden _ZSt19__relocate_object_aI7VehicleS0_SaIS0_EEvPT_PT0_RT1_
-0000000000029940  w    F .text  000000000000013c              .hidden _ZNK16ThreadSafeString9getStringB5cxx11Ev
-000000000001c010  w    F .text  0000000000000094              .hidden _ZN2cv3VecIdLi4EEC2Ev
-00000000000081d0 g     F .text  00000000000000a8              cJSON_CreateRaw
-000000000001e7e0  w    F .text  0000000000000090              .hidden _ZSt9addressofIcEPT_RS0_
-00000000000225c0  w    F .text  00000000000000cc              .hidden _ZN9__gnu_cxx13new_allocatorIiE9constructIiJRKiEEEvPT_DpOT0_
-0000000000028fb0  w    F .text  00000000000000b4              .hidden _ZSt14__copy_move_a2ILb0EPK13VehicleSamplePS0_ET1_T0_S5_S4_
-0000000000024f00  w    F .text  0000000000000178              .hidden _ZNSt15__uniq_ptr_dataINSt6thread6_StateESt14default_deleteIS1_ELb1ELb1EECI2St15__uniq_ptr_implIS1_S3_EEPS1_
-0000000000017f60  w    F .text  0000000000000074              .hidden _ZStneRKSt23_Rb_tree_const_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEES8_
-000000000000b624 g     F .text  0000000000000184              cJSON_CreateIntArray
-0000000000018d40  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EED1Ev
-000000000001b550  w    F .text  0000000000000094              .hidden _ZNKSt6vectorI4LaneSaIS0_EE3endEv
-0000000000026220  w    F .text  0000000000000184              .hidden _ZN3zmq8socket_tC2ERNS_9context_tENS_11socket_typeE
-0000000000010d20 g     F .text  00000000000006ec              _Z14zmqTransmitterv
-000000000000bd90 g     F .text  000000000000007c              cJSON_Print
-000000000003e030 g     F .text  0000000000000378              __create_ids_perf_queue
-00000000000173f0  w    F .text  0000000000000064              .hidden _ZNSt23_Rb_tree_const_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2ERKSt17_Rb_tree_iteratorIS5_E
-000000000001cb00  w    F .text  00000000000000dc              .hidden _ZN2cv3PtrINS_2ml6RTreesEEC1ERKS3_
-000000000001a940  w    F .text  0000000000000084              .hidden _ZNSaIiEC1Ev
-00000000000351d0  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EED1Ev
-000000000001aee0  w    F .text  0000000000000084              .hidden _ZNSaI7VehicleED2Ev
-0000000000039a40  w    F .text  00000000000000f4              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJRS5_EEES9_DpOT_
-0000000000015d20  w    F .text  000000000000006c              .hidden _ZN2cv5Size_IiEC2Eii
-000000000002b450  w    F .text  0000000000000118              .hidden _ZSt12__relocate_aIP13VehicleSampleS1_SaIS0_EET0_T_S4_S3_RT1_
-0000000000015010  w    F .text  0000000000000060              .hidden _ZSt12__niter_baseIP4LaneET_S2_
-00000000000163e0  w    F .text  0000000000000064              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC2IlvEERKT_
-0000000000037210  w    F .text  0000000000000134              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IPcvEET_S7_RKS3_
-000000000000d180 g     F .text  00000000000000dc              _Z3mulN2cv6Point_IfEEf
-0000000000017c60  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEED1Ev
-000000000001fa20  w    F .text  00000000000000d4              .hidden _ZSt10_ConstructI13VehicleSampleJRS0_EEvPT_DpOT0_
-00000000000141f0  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIPN2cv5Rect_IiEEEEvT_S6_
-0000000000016a90  w    F .text  0000000000000064              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE7_S_leftEPSt18_Rb_tree_node_base
-000000000000a2c0 g     F .text  00000000000000e0              cJSON_AddTrueToObject
-0000000000017890  w    F .text  0000000000000060              .hidden _ZNKSt10_Select1stISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEclERS8_
-0000000000015b50  w    F .text  0000000000000064              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEdeEv
-00000000000173f0  w    F .text  0000000000000064              .hidden _ZNSt23_Rb_tree_const_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKSt17_Rb_tree_iteratorIS5_E
-00000000000235c0  w    F .text  00000000000000c8              .hidden _ZNSt16allocator_traitsISaI4LaneEE8max_sizeERKS1_
-000000000001b1b0  w    F .text  0000000000000084              .hidden _ZNSaIN2cv5Rect_IiEEEC1Ev
-0000000000014360  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIcEC1ERKS1_
-0000000000018c10  w    F .text  0000000000000060              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7destroyIS6_EEvPT_
-00000000000289d0  w    F .text  0000000000000088              .hidden _ZNSt10lock_guardISt5mutexEC2ERS0_
-000000000001af70  w    F .text  0000000000000084              .hidden _ZNSaI13VehicleSampleED2Ev
-000000000001ae50  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEED1Ev
-0000000000017830  w    F .text  0000000000000060              .hidden _ZSt4moveIRSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEONSt16remove_referenceIT_E4typeEOSB_
-000000000001a9d0  w    F .text  0000000000000084              .hidden _ZNSaIN2cv5Rect_IiEEED2Ev
-00000000000224d0  w    F .text  00000000000000ec              .hidden _ZN2cv7Scalar_IdEC2Edddd
-0000000000022b70  w    F .text  00000000000000d0              .hidden _ZNKSt16initializer_listIKPKcE3endEv
-000000000002e630  w    F .text  000000000000018c              .hidden _ZNSt6vectorIiSaIiEED2Ev
-0000000000020040  w    F .text  00000000000000e4              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEE8allocateEmPKv
-00000000000152a0  w    F .text  0000000000000064              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS1_SaIS1_EEEdeEv
-000000000001c4f0  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE12_Vector_implD2Ev
-0000000000018bb0  w    F .text  0000000000000060              .hidden _ZSt8_DestroyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEvPT_
-00000000000172d0  w    F .text  0000000000000060              .hidden _ZSt7forwardIRPSt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEOT_RNSt16remove_referenceISA_E4typeE
-0000000000012270  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx12__atomic_addEPVii
-0000000000012c50  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIiSaIiEE19_M_get_Tp_allocatorEv
-00000000000165f0  w    F .text  000000000000004c              .hidden _ZNSt20_Rb_tree_key_compareISt4lessINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2Ev
-00000000000306d0  w    F .text  0000000000000124              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE11_S_max_sizeERKS6_
-00000000000229c0  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleE9constructIS1_JRKS1_EEEvPT_DpOT0_
-0000000000017fe0  w    F .text  000000000000005c              .hidden _ZNSt6thread2idC2Ev
-0000000000012640  w    F .text  000000000000005c              .hidden _ZN2cv5Size_IiEC2Ev
-000000000000b1a0 g     F .text  0000000000000180              cJSON_CreateDoubleArray
-0000000000012fa0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS1_SaIS1_EEEC2ERKS2_
-000000000001b870  w    F .text  0000000000000094              .hidden _ZNSt6vectorI7VehicleSaIS0_EE5beginEv
-000000000001a780  w    F .text  000000000000009c              .hidden _ZNSt11_Tuple_implILm0EJPFvvEEEC2ERKS1_
-0000000000023c30  w    F .text  00000000000000c8              .hidden _ZNKSt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EE9_M_valptrEv
-000000000002d490  w    F .text  0000000000000204              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE23_M_get_insert_equal_posERKS5_
-0000000000027940  w    F .text  0000000000000174              .hidden _ZNSt14_Optional_baseImLb1ELb1EEC2IJmELb0EEESt10in_place_tDpOT_
-0000000000020b10  w    F .text  0000000000000090              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE7destroyIS6_EEvRS8_PT_
-000000000001b730  w    F .text  0000000000000094              .hidden _ZNKSt6vectorIN2cv5Rect_IiEESaIS2_EE3endEv
-0000000000021d90  w    F .text  00000000000000a8              .hidden _ZNSt16allocator_traitsISaI7VehicleEE10deallocateERS1_PS0_m
-00000000000206a0  w    F .text  00000000000000d4              .hidden _ZN3zmq12const_bufferC1ERKNS_14mutable_bufferE
-000000000002e370  w    F .text  0000000000000118              .hidden _ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
-0000000000029a80  w    F .text  0000000000000188              .hidden _ZNSt6vectorI13VehicleSampleSaIS0_EED2Ev
-000000000002ad50  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE13_Rb_tree_implIS9_Lb1EEC2Ev
-0000000000009a60 g     F .text  00000000000000c8              cJSON_DetachItemFromObject
-000000000003b600  w    F .text  0000000000000238              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_
-00000000000244b0  w    F .text  00000000000000b4              .hidden _ZSt8_DestroyIPiiEvT_S1_RSaIT0_E
-00000000000165a0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEEC2Ev
-0000000000007374 g     F .text  0000000000000074              cJSON_IsNumber
-000000000001a4b0  w    F .text  000000000000007c              .hidden _ZN3zmq9message_tD2Ev
-000000000001c0b0  w    F .text  000000000000008c              .hidden _ZNSt12__shared_ptrIN2cv2ml6RTreesELN9__gnu_cxx12_Lock_policyE2EED2Ev
-000000000001a3a0  w    F .text  0000000000000090              .hidden _ZN3zmq14mutable_bufferC2EPvm
-00000000000163e0  w    F .text  0000000000000064              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC1IlvEERKT_
-0000000000021250  w    F .text  00000000000000d8              .hidden _ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC1IRPSt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEERS1_Lb1EEEOT_OT0_
-0000000000027c00  w    F .text  0000000000000130              .hidden _ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EE10_M_deleterEv
-00000000000170f0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEE4baseEv
-0000000000030070  w    F .text  00000000000000bc              .hidden _ZN2cv12_OutputArrayC2ERNS_3MatE
-00000000000151e0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneED2Ev
-000000000001bf70  w    F .text  000000000000009c              .hidden _ZNSt12__shared_ptrIN2cv2ml6RTreesELN9__gnu_cxx12_Lock_policyE2EEC2ERKS5_
-000000000001c8b0  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE12_Vector_implD2Ev
-000000000000d354 g     F .text  00000000000000f4              _Z3addN2cv6Point_IfEES1_
-0000000000015a20  w    F .text  000000000000004c              .hidden _ZNSt22_Optional_payload_baseImE8_StorageImLb1EEC2Ev
-0000000000020780  w    F .text  0000000000000098              .hidden _ZNK9__gnu_cxx13new_allocatorI4LaneE8max_sizeEv
-0000000000024dd0  w    F .text  0000000000000130              .hidden _ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EEC1EPS1_
-000000000000d780 g     F .text  0000000000000134              _Z9dist2lineN2cv6Point_IfEES1_S1_
-0000000000022aa0  w    F .text  00000000000000c8              .hidden _ZNKSt6thread8joinableEv
-0000000000023ff0  w    F .text  00000000000000a8              .hidden _ZN3zmq7error_tD0Ev
-0000000000005f80 g     F .text  0000000000000048              __connect_to_bgn_ids
-000000000001d9e0  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseIiSaIiEEC1Ev
-000000000001f3b0  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm1EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEE7_M_headERS6_
-00000000000191b0  w    F .text  0000000000000090              .hidden _ZNSt10_Head_baseILm2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EEC1IRS5_EEOT_
-00000000000086a0 g     F .text  000000000000007c              cJSON_GetObjectItemCaseSensitive
-000000000001d780  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EEC1Ev
-0000000000016450  w    F .text  0000000000000064              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
-0000000000013f40  w    F .text  0000000000000060              .hidden _ZSt4moveIR7VehicleEONSt16remove_referenceIT_E4typeEOS3_
-000000000001aca0  w    F .text  0000000000000084              .hidden _ZNSaI7VehicleEC1Ev
-0000000000015bc0  w    F .text  0000000000000064              .hidden _ZNK3zmq12const_buffer4dataEv
-00000000000155a0  w    F .text  00000000000000f8              _ZNSt8__detail18__to_chars_10_implIjEEvPcjT_
-000000000001f050  w    F .text  0000000000000084              .hidden _ZNSt16allocator_traitsISaI4LaneEE7destroyIS0_EEvRS1_PT_
-000000000003b580  w    F .text  0000000000000078              _ZN3zmq6bufferIcSt11char_traitsIcESaIcEEENS_12const_bufferERKNSt7__cxx1112basic_stringIT_T0_T1_EE
-0000000000018ce0  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EED2Ev
-000000000001ad30  w    F .text  0000000000000084              .hidden _ZNSaI13VehicleSampleEC2Ev
-0000000000021a70  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaIN2cv3VecIiLi4EEEEE10deallocateERS3_PS2_m
-000000000000a1e0 g     F .text  00000000000000e0              cJSON_AddNullToObject
-00000000000125d0  w    F .text  000000000000006c              .hidden _ZN2cv6Point_IfEC1Eff
-0000000000016750  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2Ev
-0000000000018480  w    F .text  000000000000004c              .hidden _ZNSt10_Head_baseILm1ESt14default_deleteINSt6thread6_StateEELb1EEC1Ev
-0000000000017c60  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEED2Ev
-0000000000012bf0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPiSt6vectorIiSaIiEEE4baseEv
-00000000000092d0 g     F .text  00000000000001b4              cJSON_ParseWithLengthOpts
-0000000000023a90  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm1ESt14default_deleteINSt6thread6_StateEEJEERT0_RSt11_Tuple_implIXT_EJS4_DpT1_EE
-000000000003b840  w    F .text  0000000000000130              .hidden _ZNSt16allocator_traitsISaI13VehicleSampleEE8allocateERS1_m
-0000000000016fd0  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEppEv
-0000000000027000  w    F .text  0000000000000108              .hidden _ZNSt12_Vector_baseIiSaIiEED1Ev
-0000000000017270  w    F .text  0000000000000060              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE6_M_endEv
-0000000000037d00  w    F .text  0000000000000224              .hidden _ZSt19__relocate_object_aI13VehicleSampleS0_SaIS0_EEvPT_PT0_RT1_
-000000000002c120  w    F .text  0000000000000118              .hidden _ZSt12__relocate_aIP4LaneS1_SaIS0_EET0_T_S4_S3_RT1_
-0000000000021ee0  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaIN2cv5Rect_IiEEEE10deallocateERS3_PS2_m
-000000000003c7a0  w    F .text  00000000000000dc              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE14_M_create_nodeIJS8_EEEPSt13_Rb_tree_nodeIS8_EDpOT_
-0000000000020260  w    F .text  0000000000000160              .hidden _ZNSt6vectorI4LaneSaIS0_EEC1Ev
-0000000000023760  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEJS5_bEERT0_RSt11_Tuple_implIXT_EJS6_DpT1_EE
-0000000000025e90  w    F .text  00000000000000fc              .hidden _ZNSt22_Optional_payload_baseImEC2IJmEEESt10in_place_tDpOT_
-0000000000014000  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleE7destroyIS1_EEvPT_
-0000000000015ef0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv3VecIiLi4EEEED2Ev
-0000000000030130  w    F .text  00000000000000b0              .hidden _ZN2cv12_OutputArrayC1Ev
-000000000002aa70  w    F .text  00000000000000b4              .hidden _ZN3zmq6bufferEPvm
-0000000000007210 g     F .text  0000000000000074              cJSON_IsTrue
-000000000001b090  w    F .text  0000000000000084              .hidden _ZNSaIN2cv3VecIiLi4EEEED1Ev
-00000000000165f0  w    F .text  000000000000004c              .hidden _ZNSt20_Rb_tree_key_compareISt4lessINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC1Ev
-0000000000007d80 g     F .text  0000000000000074              cJSON_CreateNull
-0000000000018ae0  w    F .text  0000000000000064              .hidden _ZNSt12__mutex_baseC1Ev
-00000000000126a0  w    F .text  0000000000000070              .hidden _ZN2cv11_InputArray4initEiPKv
-00000000000392e0  w    F .text  000000000000012c              _ZNSt6vectorI4LaneSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_
-0000000000015ca0  w    F .text  0000000000000080              .hidden _ZN2cv5Rect_IiEC2Eiiii
-0000000000015ae0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPKcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS2_
-00000000000305a0  w    F .text  0000000000000128              .hidden _ZNSt6vectorI13VehicleSampleSaIS0_EE11_S_max_sizeERKS1_
-0000000000017fe0  w    F .text  000000000000005c              .hidden _ZNSt6thread2idC1Ev
-0000000000014b80  w    F .text  0000000000000064              .hidden _ZN2cv4MatxIiLi4ELi1EEC2EPKi
-000000000001f7e0  w    F .text  0000000000000094              .hidden _ZNSt6vectorI4LaneSaIS0_EE5beginEv
-000000000002f620  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EED2Ev
-000000000001c7f0  w    F .text  00000000000000b4              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE13_Rb_tree_implIS9_Lb1EED1Ev
-0000000000015ca0  w    F .text  0000000000000080              .hidden _ZN2cv5Rect_IiEC1Eiiii
-000000000003b180  w    F .text  00000000000001b4              _ZN3zmq6detail26buffer_contiguous_sequenceIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEDTcl6buffercl9addressofdecl5beginfp_EEtlmEEEOT_
-0000000000019ec0  w    F .text  0000000000000068              .hidden _ZNSt14__shared_countILN9__gnu_cxx12_Lock_policyE2EEC2ERKS2_
-000000000001be40  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm2EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbEED1Ev
-000000000001c0b0  w    F .text  000000000000008c              .hidden _ZNSt12__shared_ptrIN2cv2ml6RTreesELN9__gnu_cxx12_Lock_policyE2EED1Ev
-00000000000087a4 g     F .text  00000000000001a8              cJSON_Minify
-0000000000027200  w    F .text  000000000000011c              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EED2Ev
-00000000000221e0  w    F .text  000000000000017c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEEC1IJRS3_EEEDpOT_
-00000000000259b0  w    F .text  00000000000000d4              .hidden _ZSt10_ConstructI13VehicleSampleJRKS0_EEvPT_DpOT0_
-000000000001aca0  w    F .text  0000000000000084              .hidden _ZNSaI7VehicleEC2Ev
-0000000000013c90  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIP7VehicleSt6vectorIS1_SaIS1_EEEC2ERKS2_
-0000000000019bf0  w    F .text  000000000000006c              .hidden _ZN3zmq7error_tD1Ev
-000000000001b5f0  w    F .text  0000000000000094              .hidden _ZNSt6vectorI7VehicleSaIS0_EE3endEv
-0000000000028a60  w    F .text  00000000000000f4              .hidden _ZNSt11_Tuple_implILm3EJbEEC1IRbEEOT_
-00000000000149c0  w    F .text  000000000000004c              .hidden _ZNSt12_Destroy_auxILb1EE9__destroyIPiEEvT_S3_
-0000000000027940  w    F .text  0000000000000174              .hidden _ZNSt14_Optional_baseImLb1ELb1EEC1IJmELb0EEESt10in_place_tDpOT_
-00000000000376a0  w    F .text  0000000000000128              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE9constructIS6_JS6_EEEvRS8_PT_DpOT0_
-0000000000013bc0  w    F .text  0000000000000068              .hidden _ZN7VehicleC2Ev
-000000000002d7a0  w    F .text  000000000000019c              .hidden _ZNSt11_Tuple_implILm2EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbEEC2IRS5_JRbEvEEOT_DpOT0_
-0000000000018ce0  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EED1Ev
-0000000000007284 g     F .text  0000000000000074              cJSON_IsBool
-0000000000014fb0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE19_M_get_Tp_allocatorEv
-0000000000024270  w    F .text  00000000000000b4              .hidden _ZSt8_DestroyIPN2cv3VecIiLi4EEES2_EvT_S4_RSaIT0_E
-0000000000007df4 g     F .text  0000000000000074              cJSON_CreateTrue
-0000000000017600  w    F .text  0000000000000064              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE7_S_leftEPKSt18_Rb_tree_node_base
-0000000000013950  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE17_Vector_impl_dataC1Ev
-000000000001a690  w    F .text  0000000000000060              .hidden _ZN3zmq9context_tD2Ev
-0000000000008e20 g     F .text  00000000000000a8              cJSON_CreateArrayReference
-000000000001efc0  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIP7VehicleEvT_S2_
-000000000002b7b0  w    F .text  0000000000000118              .hidden _ZSt12__relocate_aIP7VehicleS1_SaIS0_EET0_T_S4_S3_RT1_
-000000000001f920  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE12_Vector_implC2Ev
-000000000000a000 g     F .text  0000000000000094              cJSON_AddItemToObject
-0000000000011410 g     F .text  0000000000000d08              _Z7adasAppNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_b
-000000000001ca50  w    F .text  00000000000000a8              .hidden _ZNSt10shared_ptrIN2cv2ml6RTreesEED2Ev
-0000000000030800  w    F .text  0000000000000130              .hidden _ZNSt6vectorI4LaneSaIS0_EE11_S_max_sizeERKS1_
-0000000000030130  w    F .text  00000000000000b0              .hidden _ZN2cv12_OutputArrayC2Ev
-0000000000013360  w    F .text  000000000000007c              .hidden _ZNKSt6vectorI13VehicleSampleSaIS0_EE8capacityEv
-0000000000033640  w    F .text  00000000000001a4              _ZSt9__find_ifIPKPKcN9__gnu_cxx5__ops10_Iter_predIZNK4argh6parserixESt16initializer_listIS2_EEUlS1_E_EEET_SD_SD_T0_St26random_access_iterator_tag
-000000000000cb90 g     F .text  0000000000000220              _Z9horizLineN2cv3MatEiiNS_6Point_IiEES2_i
-0000000000021250  w    F .text  00000000000000d8              .hidden _ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC2IRPSt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEERS1_Lb1EEEOT_OT0_
-00000000000089f4 g     F .text  00000000000000c8              cJSON_DetachItemFromObjectCaseSensitive
-0000000000028d00  w    F .text  00000000000000c8              .hidden _ZNSt5mutex6unlockEv
-0000000000023440  w    F .text  00000000000000c0              .hidden _ZNSt16allocator_traitsISaI13VehicleSampleEE8max_sizeERKS1_
-0000000000019240  w    F .text  0000000000000090              .hidden _ZNSt10_Head_baseILm1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEELb0EEC2IRS5_EEOT_
-000000000001cfb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE12_Vector_implC2Ev
-0000000000029640  w    F .text  00000000000000bc              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EEEE9constructIS9_JS9_EEEvRSB_PT_DpOT0_
-0000000000013a20  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPKN2cv5Rect_IiEESt6vectorIS3_SaIS3_EEEC2ERKS5_
-000000000003e880 g     F .text  000000000000005c              ids_close_perf_queue
-000000000001db10  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EEC1Ev
-000000000001d1b0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseIiSaIiEE12_Vector_implC2Ev
-000000000000ada0 g     F .text  00000000000000e0              cJSON_DetachItemFromArray
-00000000000209e0  w    F .text  0000000000000090              .hidden _ZNK9__gnu_cxx13new_allocatorI13VehicleSampleE8max_sizeEv
-000000000001d490  w    F .text  000000000000012c              .hidden _ZNSt8optionalImEC1Ev
-000000000001bed0  w    F .text  0000000000000094              .hidden _ZNSt5mutexC2Ev
-0000000000025500  w    F .text  0000000000000128              .hidden _ZSt3getILm0EJPFvvEEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOS6_
-00000000000263b0  w    F .text  00000000000000e0              .hidden _ZN9__gnu_cxxmiIP13VehicleSampleSt6vectorIS1_SaIS1_EEEENS_17__normal_iteratorIT_T0_E15difference_typeERKS9_SC_
-0000000000015d90  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv3VecIiLi4EEEEC2Ev
-0000000000007e70 g     F .text  0000000000000074              cJSON_CreateFalse
-0000000000015780  w    F .text  000000000000009c              .hidden _ZSt8distanceIPcENSt15iterator_traitsIT_E15difference_typeES2_S2_
-000000000000c880 g     F .text  000000000000009c              _Z4distN2cv6Point_IfEE
-0000000000022690  w    F .text  0000000000000198              .hidden _ZNSt6thread8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_bES7_S7_bEEED1Ev
-000000000000c9d4 g     F .text  00000000000001b4              _Z15hasVertResponseN2cv3MatEiiii
-00000000000337f0  w    F .text  00000000000000a8              .hidden _ZSt9__find_ifIPKPKcN9__gnu_cxx5__ops10_Iter_predIZNK4argh6parserixESt16initializer_listIS2_EEUlS1_E_EEET_SD_SD_T0_
-00000000000151e0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneED1Ev
-000000000000cef0 g     F .text  000000000000028c              _Z17findSymmetryAxisXN2cv3MatENS_6Point_IiEES2_
-000000000002cee0  w    F .text  00000000000001c8              .hidden _ZNSt3setINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EEC1Ev
-000000000000ae80 g     F .text  0000000000000104              cJSON_DeleteItemFromArray
-000000000001cbe0  w    F .text  00000000000000c4              .hidden _ZNSt17_Optional_payloadImLb1ELb1ELb1EEC2Ev
-0000000000016160  w    F .text  0000000000000064              .hidden _ZNKSt19_Optional_base_implImSt14_Optional_baseImLb1ELb1EEE13_M_is_engagedEv
-0000000000020d10  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxxneIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEbRKNS_17__normal_iteratorIT_T0_EESD_
-0000000000019370  w    F .text  0000000000000074              .hidden _ZStltIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EESA_
-000000000001fbc0  w    F .text  00000000000000a0              .hidden _ZNK9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS1_SaIS1_EEEplEl
-000000000003bbe0  w    F .text  0000000000000124              .hidden _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE8allocateERS6_m
-0000000000020a70  w    F .text  0000000000000098              .hidden _ZN9__gnu_cxx5__ops10_Iter_predIZNK4argh6parserixESt16initializer_listIKPKcEEUlS6_E_EC1ES9_
-000000000001c970  w    F .text  00000000000000d4              .hidden _ZN16ThreadSafeStringC2Ev
-00000000000158f0  w    F .text  0000000000000064              .hidden _ZN3zmq9context_t6handleEv
-000000000002d7a0  w    F .text  000000000000019c              .hidden _ZNSt11_Tuple_implILm2EJNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbEEC1IRS5_JRbEvEEOT_DpOT0_
-000000000002dd20  w    F .text  0000000000000064              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE5clearEv
-000000000002abf0  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE13_Rb_tree_implISC_Lb1EEC2Ev
-0000000000012120  w    F .text  0000000000000054              .hidden _ZSt19__constant_string_pIcEbPKT_
-000000000001dc40  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EEC2Ev
-000000000001eab0  w    F .text  0000000000000090              .hidden _ZNK9__gnu_cxx16__aligned_membufISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EE6_M_ptrEv
-000000000003e9c0 g     F .text  0000000000000060              ids_close_app_event_queue
-000000000001e6e0  w    F .text  00000000000000f8              .hidden _ZNSt5tupleIJPNSt6thread6_StateESt14default_deleteIS1_EEEC2ILb1ELb1EEEv
-00000000000130d0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIP13VehicleSampleSt6vectorIS1_SaIS1_EEE4baseEv
-00000000000239d0  w    F .text  00000000000000bc              .hidden _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE8max_sizeERKS6_
-0000000000008120 g     F .text  00000000000000a8              cJSON_CreateString
-00000000000258d0  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleE9constructIS1_JRKS1_EEEvPT_DpOT0_
-0000000000009e50 g     F .text  000000000000008c              cJSON_AddItemReferenceToArray
-00000000000156a0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__is_null_pointerIcEEbPT_
-00000000000073f0 g     F .text  0000000000000074              cJSON_IsString
-0000000000016230  w    F .text  0000000000000060              .hidden _ZSt7forwardIiEOT_RNSt16remove_referenceIS0_E4typeE
-0000000000017dc0  w    F .text  0000000000000060              .hidden _ZSt4moveIRNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEEEONSt16remove_referenceIT_E4typeEOS8_
-0000000000020940  w    F .text  0000000000000098              .hidden _ZNK9__gnu_cxx13new_allocatorI7VehicleE8max_sizeEv
-000000000001c670  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE12_Vector_implD2Ev
-0000000000017f00  w    F .text  0000000000000060              .hidden _ZSt4moveIRZNK4argh6parserixESt16initializer_listIKPKcEEUlS4_E_EONSt16remove_referenceIT_E4typeEOSA_
-00000000000124e0  w    F .text  00000000000000f0              .hidden _ZN9__gnu_cxx21__atomic_add_dispatchEPii
-00000000000159c0  w    F .text  0000000000000060              .hidden _ZSt7forwardImEOT_RNSt16remove_referenceIS0_E4typeE
-0000000000016b00  w    F .text  0000000000000060              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE21_M_get_Node_allocatorEv
-0000000000020fb0  w    F .text  00000000000000d8              .hidden _ZNSt4pairIPSt18_Rb_tree_node_baseS1_EC1IRPSt13_Rb_tree_nodeIS_IKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_EERS1_Lb1EEEOT_OT0_
-000000000001a530  w    F .text  0000000000000088              .hidden _ZN3zmq8socket_t5closeEv
-0000000000016c20  w    F .text  0000000000000060              .hidden _ZSt11__addressofINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEPT_RS6_
-0000000000018970  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleED1Ev
-000000000001ceb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE12_Vector_implC2Ev
-00000000000137b0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleED1Ev
-00000000000189c0  w    F .text  000000000000006c              .hidden _ZN16ExpMovingAverageC2Ev
-000000000001a820  w    F .text  0000000000000084              .hidden _ZNSaIiED2Ev
-0000000000020500  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EE12_Vector_implC1ERKS1_
-000000000000dd50 g     F .text  0000000000000420              _Z12drawVehiclesN2cv3MatE
-0000000000013a90  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPKN2cv5Rect_IiEESt6vectorIS3_SaIS3_EEE4baseEv
-000000000000a480 g     F .text  00000000000000ec              cJSON_AddBoolToObject
-0000000000016300  w    F .text  0000000000000064              .hidden _ZNKSt6chrono8durationIlSt5ratioILl1ELl1000EEE5countEv
-000000000000c3e0 g     F .text  00000000000000fc              cJSON_PrintPreallocated
-000000000003eb00 g     F .text  000000000000002c              ids_destroy_perf_queue
-00000000000282c0  w    F .text  0000000000000094              .hidden _ZNSt15_Rb_tree_headerC1Ev
-00000000000164c0  w    F .text  0000000000000064              .hidden _ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
-0000000000021bb0  w    F .text  00000000000000a0              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE10deallocateERS8_PS7_m
-000000000003d620  w    F .text  000000000000053c              .hidden _ZN4argh6parserC2EPKPKci
-00000000000176e0  w    F .text  0000000000000060              .hidden _ZNSt23_Rb_tree_const_iteratorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2EPKSt18_Rb_tree_node_base
-0000000000018280  w    F .text  0000000000000060              .hidden _ZSt4moveIRSt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_bES6_S6_bEEEONSt16remove_referenceIT_E4typeEOSC_
-0000000000010784 g     F .text  000000000000059c              _Z11zmqReceiverv
-00000000000075d0 g     F .text  0000000000000078              cJSON_malloc
-000000000001d5c0  w    F .text  00000000000000e4              .hidden _ZN6StatusC2Ev
-000000000001d8b0  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EEC2Ev
-0000000000013950  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EE17_Vector_impl_dataC2Ev
-0000000000033f90  w    F .text  000000000000009c              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16_M_construct_auxIPcEEvT_S7_St12__false_type
-000000000001ac10  w    F .text  0000000000000084              .hidden _ZNSaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC2Ev
-000000000002f9e0  w    F .text  000000000000012c              .hidden _ZNSt16allocator_traitsISaI7VehicleEE9constructIS0_JS0_EEEvRS1_PT_DpOT0_
-0000000000024dd0  w    F .text  0000000000000130              .hidden _ZNSt15__uniq_ptr_implINSt6thread6_StateESt14default_deleteIS1_EEC2EPS1_
-000000000002d0b0  w    F .text  00000000000001c8              .hidden _ZNSt8multimapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St4lessIS5_ESaISt4pairIKS5_S5_EEEC2Ev
-0000000000021170  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleE9constructIS1_JS1_EEEvPT_DpOT0_
-0000000000016290  w    F .text  0000000000000064              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC2IivEERKT_
-0000000000019890  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv3VecIiLi4EEEE10deallocateEPS3_m
-000000000001b4b0  w    F .text  0000000000000094              .hidden _ZNKSt6vectorI4LaneSaIS0_EE5beginEv
-0000000000014a60  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneEC2Ev
-0000000000016290  w    F .text  0000000000000064              .hidden _ZNSt6chrono8durationIlSt5ratioILl1ELl1000EEEC1IivEERKT_
-000000000001a940  w    F .text  0000000000000084              .hidden _ZNSaIiEC2Ev
-000000000001e420  w    F .text  0000000000000160              .hidden _ZNSt6vectorIiSaIiEEC1Ev
-0000000000013190  w    F .text  0000000000000060              .hidden _ZSt12__niter_baseIP13VehicleSampleET_S2_
-0000000000018840  w    F .text  0000000000000064              .hidden _ZNSt10_Head_baseILm0EPFvvELb0EEC2ERKS1_
-00000000000397d0  w    F .text  0000000000000268              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
-0000000000028a60  w    F .text  00000000000000f4              .hidden _ZNSt11_Tuple_implILm3EJbEEC2IRbEEOT_
-000000000000c780 g     F .text  00000000000000a4              _Z3dotN2cv6Point_IfEES1_
-0000000000013570  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS1_SaIS1_EEEC1ERKS3_
-0000000000014f50  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx17__normal_iteratorIP4LaneSt6vectorIS1_SaIS1_EEE4baseEv
-00000000000128b0  w    F .text  0000000000000060              .hidden _ZSt7forwardIRKiEOT_RNSt16remove_referenceIS2_E4typeE
-000000000001c140  w    F .text  00000000000000c0              .hidden _ZNSt10shared_ptrIN2cv2ml6RTreesEEC1ERKS3_
-00000000000140b0  w    F .text  000000000000006c              .hidden _ZN2cv6Point_IiEC2Eii
-0000000000034e40  w    F .text  0000000000000264              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E
-000000000001bed0  w    F .text  0000000000000094              .hidden _ZNSt5mutexC1Ev
-000000000003b970  w    F .text  0000000000000124              .hidden _ZNSt16allocator_traitsISaIiEE8allocateERS0_m
-0000000000006bb0 g     F .text  0000000000000084              cJSON_GetArraySize
-0000000000015960  w    F .text  0000000000000060              .hidden _ZN3zmq9message_t6handleEv
-0000000000013d60  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx13new_allocatorI7VehicleE11_M_max_sizeEv
-0000000000014590  w    F .text  0000000000000060              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
-00000000000323a0  w    F .text  0000000000000144              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE14_S_do_relocateEPS5_S8_S8_RS6_St17integral_constantIbLb1EE
-0000000000019540  w    F .text  0000000000000088              .hidden _ZSt14__relocate_a_1IiiENSt9enable_ifIXsrSt24__is_bitwise_relocatableIT_vE5valueEPS2_E4typeES4_S4_S4_RSaIT0_E
-000000000001a2a0  w    F .text  000000000000006c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED2Ev
-000000000001c2d0  w    F .text  000000000000009c              .hidden _ZN2cv3VecIiLi4EEC2ERKS1_
-000000000001e900  w    F .text  0000000000000084              .hidden _ZSt8_DestroyIPiEvT_S1_
-000000000001ad30  w    F .text  0000000000000084              .hidden _ZNSaI13VehicleSampleEC1Ev
-000000000002cd10  w    F .text  00000000000001c8              .hidden _ZNSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EEC2Ev
-000000000002ab30  w    F .text  00000000000000b4              .hidden _ZN3zmq6bufferEPKvm
-00000000000182e0  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm3EbLb0EE7_M_headERS0_
-000000000001cbe0  w    F .text  00000000000000c4              .hidden _ZNSt17_Optional_payloadImLb1ELb1ELb1EEC1Ev
-0000000000020df0  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxxneIPK4LaneSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESC_
-000000000001c970  w    F .text  00000000000000d4              .hidden _ZN16ThreadSafeStringC1Ev
-00000000000289d0  w    F .text  0000000000000088              .hidden _ZNSt10lock_guardISt5mutexEC1ERS0_
-0000000000015fa0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC1ERKS1_
-000000000001af70  w    F .text  0000000000000084              .hidden _ZNSaI13VehicleSampleED1Ev
-000000000001f4d0  w    F .text  0000000000000090              .hidden _ZNSt11_Tuple_implILm3EJbEE7_M_headERS0_
-0000000000015190  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI4LaneEC1ERKS2_
-0000000000016750  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEC1Ev
-0000000000014b10  w    F .text  0000000000000068              .hidden _ZNK2cv3Mat12isContinuousEv
-00000000000217e0  w    F .text  00000000000000f0              .hidden _ZN9__gnu_cxx5__ops11__pred_iterIZNK4argh6parserixESt16initializer_listIKPKcEEUlS6_E_EENS0_10_Iter_predIT_EESB_
-0000000000013bc0  w    F .text  0000000000000068              .hidden _ZN7VehicleC1Ev
-0000000000030930  w    F .text  0000000000000124              .hidden _ZNSt6vectorIiSaIiEE11_S_max_sizeERKS0_
-0000000000007464 g     F .text  0000000000000074              cJSON_IsArray
-0000000000013250  w    F .text  0000000000000060              .hidden _ZSt4moveIR13VehicleSampleEONSt16remove_referenceIT_E4typeEOS3_
-0000000000013310  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI13VehicleSampleE7destroyIS1_EEvPT_
-000000000002d410  w    F .text  0000000000000074              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE12_M_drop_nodeEPSt13_Rb_tree_nodeIS8_E
-0000000000023830  w    F .text  00000000000000c8              .hidden _ZSt12__get_helperILm0EPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEJS5_S5_bEERT0_RSt11_Tuple_implIXT_EJS8_DpT1_EE
-000000000002e490  w    F .text  00000000000001a0              .hidden _ZNSt6vectorI7VehicleSaIS0_EED2Ev
-0000000000017d00  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED1Ev
-0000000000014dc0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIP4LaneSt6vectorIS1_SaIS1_EEEC2ERKS2_
-000000000003e664 g     F .text  000000000000021c              __cyg_profile_func_exit
-0000000000018780  w    F .text  0000000000000060              .hidden _ZSt7forwardIPFvvEEOT_RNSt16remove_referenceIS2_E4typeE
-0000000000013e20  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE19_M_get_Tp_allocatorEv
-0000000000036460  w    F .text  0000000000000128              .hidden _ZSt3getILm1EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOSC_
-0000000000025d50  w    F .text  0000000000000140              .hidden _ZN3zmq8socket_tC1ERNS_9context_tEi
-0000000000016f60  w    F .text  0000000000000064              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEdeEv
-0000000000013a20  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIPKN2cv5Rect_IiEESt6vectorIS3_SaIS3_EEEC1ERKS5_
-000000000001ceb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE12_Vector_implC1Ev
-0000000000015370  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx17__normal_iteratorIPK4LaneSt6vectorIS1_SaIS1_EEEppEv
-0000000000038a40  w    F .text  0000000000000120              .hidden _ZNSt6vectorIiSaIiEE14_S_do_relocateEPiS2_S2_RS0_St17integral_constantIbLb1EE
-0000000000024f00  w    F .text  0000000000000178              .hidden _ZNSt15__uniq_ptr_dataINSt6thread6_StateESt14default_deleteIS1_ELb1ELb1EECI1St15__uniq_ptr_implIS1_S3_EEPS1_
-00000000000351d0  w    F .text  0000000000000160              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EED2Ev
-000000000001fe80  w    F .text  00000000000000d4              .hidden _ZSt10_ConstructI4LaneJRKS0_EEvPT_DpOT0_
-0000000000008030 g     F .text  0000000000000074              cJSON_CreateArray
-000000000001e990  w    F .text  0000000000000090              .hidden _ZNKSt19_Optional_base_implImSt14_Optional_baseImLb1ELb1EEE6_M_getEv
-0000000000018040  w    F .text  0000000000000060              .hidden _ZSt7forwardIRFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bEEOT_RNSt16remove_referenceIS8_E4typeE
-0000000000028810  w    F .text  00000000000000ec              .hidden _ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPK13VehicleSampleSt6vectorIS2_SaIS2_EEEEPS2_S2_ET0_T_SB_SA_RSaIT1_E
-0000000000033390  w    F .text  00000000000000dc              .hidden _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
-00000000000192d0  w    F .text  0000000000000094              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2EOS7_
-0000000000023160  w    F .text  000000000000006c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEED0Ev
-0000000000027320  w    F .text  0000000000000140              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSD_PSt13_Rb_tree_nodeIS5_E
-0000000000032100  w    F .text  0000000000000144              .hidden _ZNSt6vectorI4LaneSaIS0_EE14_S_do_relocateEPS0_S3_S3_RS1_St17integral_constantIbLb1EE
-0000000000012f40  w    F .text  0000000000000060              .hidden _ZSt7forwardIRK13VehicleSampleEOT_RNSt16remove_referenceIS3_E4typeE
-00000000000121f0  w    F .text  0000000000000078              .hidden _ZN9__gnu_cxx18__exchange_and_addEPVii
-0000000000009dd0 g     F .text  0000000000000078              cJSON_AddItemToArray
-0000000000012ee0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE17_Vector_impl_dataC1Ev
-000000000003be60  w    F .text  0000000000000124              .hidden _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEE8allocateERS8_m
-000000000000c920 g     F .text  00000000000000b4              _Z5pixelN2cv3MatEii
-00000000000266a0  w    F .text  00000000000000c8              .hidden _ZNSt6vectorIiSaIiEE11_S_relocateEPiS2_S2_RS0_
-0000000000015890  w    F .text  0000000000000060              .hidden _ZN3zmq6detail11socket_baseC2EPv
-0000000000018100  w    F .text  0000000000000060              .hidden _ZNSt10_Head_baseILm0EPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bELb0EE7_M_headERS8_
-0000000000017d00  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev
-000000000001a6f0  w    F .text  0000000000000084              .hidden _ZNSaI4LaneEC2ERKS0_
-000000000001d9e0  w    F .text  0000000000000128              .hidden _ZNSt12_Vector_baseIiSaIiEEC2Ev
-000000000003a7d0  w    F .text  000000000000024c              _ZNSt6vectorI13VehicleSampleSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-0000000000018a80  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE17_Vector_impl_dataC2Ev
-0000000000014e30  w    F .text  0000000000000060              .hidden _ZSt7forwardI4LaneEOT_RNSt16remove_referenceIS1_E4typeE
-0000000000015e40  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE19_M_get_Tp_allocatorEv
-000000000001c4f0  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseI7VehicleSaIS0_EE12_Vector_implD1Ev
-00000000000195d0  w    F .text  0000000000000084              .hidden _ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mI13VehicleSampleEEPT_PKS4_S7_S5_
-000000000002d6a0  w    F .text  0000000000000100              .hidden _ZNSt6chronoleIlSt5ratioILl1ELl1000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
-0000000000026df0  w    F .text  0000000000000114              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EED1Ev
-0000000000006d94 g     F .text  00000000000000b8              cJSON_DetachItemViaPointer
-000000000002d0b0  w    F .text  00000000000001c8              .hidden _ZNSt8multimapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St4lessIS5_ESaISt4pairIKS5_S5_EEEC1Ev
-00000000000243f0  w    F .text  00000000000000b4              .hidden _ZSt8_DestroyIPN2cv5Rect_IiEES2_EvT_S4_RSaIT0_E
-0000000000025630  w    F .text  0000000000000128              .hidden _ZSt3getILm3EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEONSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeEOSC_
-000000000001aaf0  w    F .text  0000000000000084              .hidden _ZNSaIN2cv3VecIiLi4EEEEC2Ev
-0000000000007194 g     F .text  0000000000000074              cJSON_IsFalse
-00000000000171b0  w    F .text  0000000000000060              .hidden _ZNK9__gnu_cxx16__aligned_membufINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE7_M_addrEv
-0000000000013c90  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIP7VehicleSt6vectorIS1_SaIS1_EEEC1ERKS2_
-000000000001a310  w    F .text  0000000000000090              .hidden _ZN3zmq12const_bufferC2EPKvm
-0000000000017d50  w    F .text  000000000000006c              .hidden _ZNKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEixEm
-0000000000036c60  w    F .text  0000000000000178              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EEC2EmRKS1_
-0000000000018da0  w    F .text  0000000000000060              .hidden _ZN16ThreadSafeStringD2Ev
-0000000000022360  w    F .text  0000000000000168              .hidden _ZNSt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEED2Ev
-000000000001c010  w    F .text  0000000000000094              .hidden _ZN2cv3VecIdLi4EEC1Ev
-0000000000008bf0 g     F .text  00000000000000c8              cJSON_GetNumberValue
-00000000000183a0  w    F .text  0000000000000068              .hidden _ZNSt6thread6_StateC1Ev
-0000000000025d50  w    F .text  0000000000000140              .hidden _ZN3zmq8socket_tC2ERNS_9context_tEi
-000000000001a3a0  w    F .text  0000000000000090              .hidden _ZN3zmq14mutable_bufferC1EPvm
-000000000002a070  w    F .text  0000000000000094              .hidden _ZNKSt8multisetINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIS5_ESaIS5_EE4findERKS5_
-0000000000012ee0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE17_Vector_impl_dataC2Ev
-000000000001a8b0  w    F .text  0000000000000084              .hidden _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev
-000000000002c570  w    F .text  0000000000000190              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EEC1Ev
-000000000001c670  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE12_Vector_implD1Ev
-0000000000017150  w    F .text  0000000000000054              .hidden _ZNK9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE11_M_max_sizeEv
-0000000000031ee0  w    F .text  00000000000000d0              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEE6_M_runEv
-000000000003db60  w    F .text  00000000000003f4              .hidden _ZNSt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEEC2IJRS6_RS5_SB_RbELb1ELb1EEEDpOT_
-0000000000015f40  w    F .text  0000000000000060              .hidden _ZSt4moveIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEONSt16remove_referenceIT_E4typeEOS8_
-0000000000012180  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx20__is_single_threadedEv
-000000000001b120  w    F .text  0000000000000084              .hidden _ZNSaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEC2Ev
-00000000000228e0  w    F .text  00000000000000d4              .hidden _ZN9__gnu_cxxneIPK13VehicleSampleSt6vectorIS1_SaIS1_EEEEbRKNS_17__normal_iteratorIT_T0_EESC_
-0000000000008280 g     F .text  0000000000000160              cJSON_Duplicate
-00000000000139b0  w    F .text  0000000000000064              .hidden _ZNKSt12__shared_ptrIN2cv2ml6RTreesELN9__gnu_cxx12_Lock_policyE2EE3getEv
-000000000001aee0  w    F .text  0000000000000084              .hidden _ZNSaI7VehicleED1Ev
-0000000000015de0  w    F .text  0000000000000060              .hidden _ZNSt12_Vector_baseIN2cv3VecIiLi4EEESaIS2_EE17_Vector_impl_dataC1Ev
-0000000000022360  w    F .text  0000000000000168              .hidden _ZNSt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEED1Ev
-0000000000023ea0  w    F .text  000000000000009c              .hidden _ZNSt22_Optional_payload_baseImE8_StorageImLb1EEC2IJmEEESt10in_place_tDpOT_
-000000000001b910  w    F .text  000000000000008c              .hidden _ZNSt22_Optional_payload_baseImEC1Ev
-000000000001ba40  w    F .text  00000000000000ac              .hidden _ZN3zmq7error_tC2Ev
-0000000000036a00  w    F .text  0000000000000254              _ZNSt6vectorI13VehicleSampleSaIS0_EEaSERKS2_
-0000000000017460  w    F .text  000000000000006c              .hidden _ZN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEppEv
-000000000002dd90  w    F .text  000000000000017c              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
-00000000000189c0  w    F .text  000000000000006c              .hidden _ZN16ExpMovingAverageC1Ev
-0000000000020820  w    F .text  000000000000008c              .hidden _ZNK9__gnu_cxx13new_allocatorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8max_sizeEv
-000000000001b690  w    F .text  0000000000000094              .hidden _ZNKSt6vectorIN2cv5Rect_IiEESaIS2_EE5beginEv
-00000000000377d0  w    F .text  0000000000000128              .hidden _ZNSt16allocator_traitsISaINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE9constructIS5_JS5_EEEvRS6_PT_DpOT0_
-00000000000246f0  w    F .text  00000000000000f8              .hidden _ZSt3getILm1EJPNSt6thread6_StateESt14default_deleteIS1_EEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERS9_
-0000000000036c60  w    F .text  0000000000000178              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EEC1EmRKS1_
-000000000001c8b0  w    F .text  00000000000000b4              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE12_Vector_implD1Ev
-0000000000036590  w    F .text  0000000000000188              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE15_M_destroy_nodeEPSt13_Rb_tree_nodeIS5_E
-0000000000017cb0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorISt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_EEED1Ev
-0000000000014050  w    F .text  0000000000000060              .hidden _ZN13VehicleSampleC2Ev
-0000000000016f00  w    F .text  0000000000000060              .hidden _ZZN4argh6parser5parseEiPKPKciENKUlS2_E_clES2_
-000000000002ec30  w    F .text  0000000000000160              .hidden _ZSt25__uninitialized_default_nIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmET_S7_T0_
-000000000001e2c0  w    F .text  0000000000000160              .hidden _ZNSt6vectorIN2cv5Rect_IiEESaIS2_EEC1Ev
-000000000000a700 g     F .text  00000000000000a8              cJSON_AddStringToObject
-00000000000370a0  w    F .text  0000000000000164              .hidden _ZNSt12_Vector_baseIN2cv5Rect_IiEESaIS2_EED2Ev
-00000000000220b0  w    F .text  0000000000000130              .hidden _ZNSt11_Tuple_implILm0EJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_bES5_S5_bEED2Ev
-00000000000304c0  w    F .text  00000000000000d8              .hidden _ZN2cv11_InputArrayC2INS_3VecIiLi4EEEEERKSt6vectorIT_SaIS5_EE
-000000000003c4e0  w    F .text  0000000000000090              .hidden _ZNSt6thread8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_bES7_S7_bEEEclEv
-000000000001c430  w    F .text  00000000000000b4              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE13_Rb_tree_implISC_Lb1EED2Ev
-000000000003b340  w    F .text  0000000000000078              _ZN3zmq6bufferIcSt11char_traitsIcESaIcEEENS_14mutable_bufferERNSt7__cxx1112basic_stringIT_T0_T1_EE
-0000000000013ee0  w    F .text  0000000000000060              .hidden _ZSt11__addressofI7VehicleEPT_RS1_
-000000000001e580  w    F .text  0000000000000160              .hidden _ZNSt6vectorIN2cv3VecIiLi4EEESaIS2_EEC1Ev
-0000000000013010  w    F .text  0000000000000060              .hidden _ZNKSt12_Vector_baseI13VehicleSampleSaIS0_EE19_M_get_Tp_allocatorEv
-000000000003adf0  w    F .text  0000000000000280              _ZNSt6vectorI7VehicleSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
-0000000000017e20  w    F .text  0000000000000064              .hidden _ZNKSt16initializer_listIKPKcE5beginEv
-0000000000018f70  w    F .text  00000000000000c8              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC2IRS5_S9_Lb1EEEOT_OT0_
-0000000000032250  w    F .text  0000000000000144              .hidden _ZNSt6vectorI7VehicleSaIS0_EE14_S_do_relocateEPS0_S3_S3_RS1_St17integral_constantIbLb1EE
-000000000001cdb0  w    F .text  00000000000000f8              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EE12_Vector_implC2Ev
-000000000000d260 g     F .text  00000000000000f4              _Z3subN2cv6Point_IfEES1_
-000000000000fc30 g     F .text  00000000000001b8              _Z20removeSamplesByIndexi
-00000000000192d0  w    F .text  0000000000000094              .hidden _ZNSt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_EC1EOS7_
-0000000000006190 g     F .text  0000000000000140              cJSON_InitHooks
-00000000000178f0  w    F .text  0000000000000060              .hidden _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE6_M_endEv
-0000000000018a30  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorI7VehicleEC2Ev
-000000000002c370  w    F .text  0000000000000100              .hidden _ZSt14__copy_move_a1ILb0EPK13VehicleSamplePS0_ET1_T0_S5_S4_
-000000000001fd30  w    F .text  00000000000000a4              .hidden _ZNK9__gnu_cxx17__normal_iteratorIPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS6_SaIS6_EEEmiEl
-0000000000014dc0  w    F .text  0000000000000064              .hidden _ZN9__gnu_cxx17__normal_iteratorIP4LaneSt6vectorIS1_SaIS1_EEEC1ERKS2_
-000000000000d544 g     F .text  000000000000023c              _Z16point_on_segmentN2cv6Point_IfEES1_S1_
-0000000000017a10  w    F .text  0000000000000060              .hidden _ZSt7forwardIRPSt13_Rb_tree_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_EEEOT_RNSt16remove_referenceISD_E4typeE
-0000000000019660  w    F .text  0000000000000068              .hidden _ZN9__gnu_cxx13new_allocatorIiE10deallocateEPim
-000000000000ffb0 g     F .text  00000000000007d4              _Z16vehicleDetectionN2cv3MatERNS_17CascadeClassifierENS_3PtrINS_2ml6RTreesEEE
-0000000000017b90  w    F .text  0000000000000060              .hidden _ZNSt17_Rb_tree_iteratorISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_EEC2EPSt18_Rb_tree_node_base
-0000000000017530  w    F .text  0000000000000064              .hidden _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_M_beginEv
-0000000000014650  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIiEC2Ev
-0000000000015ef0  w    F .text  000000000000004c              .hidden _ZN9__gnu_cxx13new_allocatorIN2cv3VecIiLi4EEEED1Ev
+0000000000005234 l     F .text  0000000000000014              call_weak_fn
+000000000000ba24 l     F .text  0000000000000054              _ZL18__gthread_active_pv
+000000000000c0c0 l     F .text  000000000000002c              _ZN3zmq6detail11socket_base4recvERNS_9message_tENS_10recv_flagsE.part.0
+000000000000c0f0 l     F .text  000000000000008c              _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0
+000000000000c180 l     F .text  0000000000000198              _ZNSt6vectorI13VehicleSampleSaIS0_EEaSERKS2_.isra.0
+000000000000c320 l     F .text  00000000000000e8              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.0
+000000000000c410 l     F .text  00000000000000a0              _ZL22__gthread_mutex_unlockP15pthread_mutex_t
+000000000000c4b0 l     F .text  00000000000000a0              _ZL20__gthread_mutex_lockP15pthread_mutex_t
+000000000000c960 l     F .text  0000000000000084              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0
+000000000000c9e4 l     F .text  0000000000000264              _Z41__static_initialization_and_destruction_0ii
+0000000000004bb0 l     F .text  0000000000000058              _GLOBAL__sub_I__Z3subN2cv6Point_IfEES1_
+000000000000cc50 l     F .text  0000000000000288              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE8_M_eraseEPSt13_Rb_tree_nodeIS5_E.isra.0
+000000000000f020 l     F .text  0000000000000034              _ZNSt6vectorI4LaneSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_.isra.0
+0000000000017830 l     F .text  0000000000000234              _ZZNK4argh6parserixESt16initializer_listIKPKcEENKUlS3_E_clES3_.isra.0
+00000000000051a0 l     F .text  000000000000002c              init_have_lse_atomics
+0000000000005250 l     F .text  0000000000000000              deregister_tm_clones
+0000000000005280 l     F .text  0000000000000000              register_tm_clones
+00000000000052c0 l     F .text  0000000000000000              __do_global_dtors_aux
+0000000000005310 l     F .text  0000000000000000              frame_dummy
+0000000000005644 l     F .text  00000000000000ec              parse_hex4
+0000000000005730 l     F .text  00000000000001c4              utf16_literal_to_utf8
+00000000000058f4 l     F .text  000000000000032c              parse_string
+0000000000005c20 l     F .text  0000000000000054              get_decimal_point
+0000000000005c74 l     F .text  00000000000000b0              buffer_skip_whitespace
+0000000000005d24 l     F .text  0000000000000088              compare_double
+0000000000005e34 l     F .text  0000000000000094              get_array_item
+0000000000005ed0 l     F .text  0000000000000064              suffix_object
+0000000000005f34 l     F .text  0000000000000060              cast_away_const
+0000000000006150 l     F .text  0000000000000098              skip_multiline_comment
+00000000000061f0 l     F .text  000000000000012c              minify_string
+0000000000006950 l     F .text  0000000000000154              ensure
+0000000000006aa4 l     F .text  0000000000000298              print_string_ptr
+0000000000006d40 l     F .text  0000000000000078              print_string
+0000000000006dc0 l     F .text  00000000000000a0              cJSON_strdup
+0000000000006e60 l     F .text  000000000000007c              cJSON_New_Item
+0000000000006ee0 l     F .text  00000000000000a0              create_reference
+00000000000075e0 l     F .text  00000000000000b0              skip_utf8_bom
+0000000000007690 l     F .text  00000000000000bc              case_insensitive_strcmp
+0000000000007750 l     F .text  00000000000000d4              get_object_item
+0000000000007920 l     F .text  0000000000000084              skip_oneline_comment
+0000000000007b50 l     F .text  00000000000000a4              update_offset
+00000000000080d0 l     F .text  00000000000001b4              parse_number
+0000000000008284 l     F .text  0000000000000244              parse_value
+0000000000008970 l     F .text  0000000000000228              parse_object
+00000000000087a0 l     F .text  00000000000001cc              parse_array
+0000000000008ee4 l     F .text  00000000000000e4              add_item_to_array
+00000000000090e0 l     F .text  0000000000000120              add_item_to_object
+0000000000009d40 l     F .text  000000000000013c              replace_item_in_object
+000000000000a9b0 l     F .text  0000000000000274              print_number
+000000000000ac24 l     F .text  00000000000001f0              print_value
+000000000000b090 l     F .text  0000000000000174              print_array
+000000000000b204 l     F .text  00000000000002a8              print_object
+000000000000ae14 l     F .text  000000000000017c              print
+0000000000017a70 l     F .text  0000000000000868              _ZNK4argh6parserixESt16initializer_listIKPKcE
+0000000000014b50 l     F .text  0000000000000020              _ZNSt12_Vector_baseI4LaneSaIS0_EED2Ev
+0000000000013f80 l     F .text  000000000000008c              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev
+0000000000012fe0 l     F .text  0000000000000184              _ZN3zmq8socket_tC1ERNS_9context_tENS_11socket_typeE
+0000000000013630 l     F .text  00000000000000ec              _ZN3zmq9context_tD1Ev
+0000000000014b70 l     F .text  00000000000000b8              _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+0000000000012470 l     F .text  00000000000000ac              _ZN3zmq9context_tC1Ev
+0000000000014b30 l     F .text  0000000000000020              _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EED2Ev
+0000000000013d70 l     F .text  0000000000000208              _ZN4argh6parserD1Ev
+0000000000014760 l     F .text  00000000000003c4              _ZNK4argh6parserclB5cxx11Em
+00000000000141c0 l     F .text  00000000000002fc              _ZNK4argh6parser9is_numberERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000015460 l     F .text  0000000000000020              _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED1Ev
+00000000000161b0 l     F .text  000000000000124c              _ZN4argh6parser5parseEiPKPKci
+0000000000013560 l     F .text  00000000000000c4              _ZN3zmq8socket_tD1Ev
+00000000000140d0 l     F .text  000000000000006c              _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+0000000000013720 l     F .text  0000000000000108              _ZN3zmq6detail11socket_base4bindERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+00000000000128a0 l     F .text  000000000000007c              _ZN3zmq9message_tD1Ev
+0000000000012020 l     F .text  000000000000004c              _ZdlPvS_
+0000000000012240 l     F .text  000000000000006c              _ZN3zmq7error_tC1Ev
+0000000000017400 l     F .text  00000000000000c0              _ZN4argh6parser5parseEPKPKci
+0000000000012a80 l     F .text  0000000000000120              _ZN3zmq9context_tC1Eii
+0000000000019120 l     F .text  0000000000000030              __aarch64_ldadd4_acq_rel
+0000000000015480 l     F .text  00000000000000c4              _ZNSt6threadC1IRFvvEJEvEEOT_DpOT0_
+0000000000013830 l     F .text  0000000000000108              _ZN3zmq6detail11socket_base7connectERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000018fa0 g     F .text  0000000000000180              ids_create_app_event_queue
+0000000000006850 g     F .text  0000000000000068              cJSON_free
+0000000000013d70  w    F .text  0000000000000208              .hidden _ZN4argh6parserD2Ev
+0000000000004c10 g     F .text  0000000000000534              main
+0000000000015710  w    F .text  00000000000000ec              _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag
+000000000000dd40 g     F .text  000000000000056c              _Z11processSideSt6vectorI4LaneSaIS0_EEN2cv3MatEb
+0000000000009f10 g     F .text  000000000000008c              cJSON_ReplaceItemInObjectCaseSensitive
+00000000000066e0 g     F .text  0000000000000074              cJSON_IsObject
+00000000000122b0  w    F .text  000000000000006c              .hidden _ZN3zmq7error_tD2Ev
+000000000000f054 g     F .text  0000000000000894              _Z12processLanesRKN2cv11_InputArrayENS_3MatES3_
+0000000000015a70  w    F .text  00000000000001d0              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE16_M_emplace_equalIJRS5_EEESt17_Rb_tree_iteratorIS5_EDpOT_
+00000000000072a4 g     F .text  0000000000000074              cJSON_CreateObject
+0000000000006050 g     F .text  00000000000000fc              cJSON_ReplaceItemViaPointer
+0000000000015480  w    F .text  00000000000000c4              .hidden _ZNSt6threadC2IRFvvEJEvEEOT_DpOT0_
+000000000000f8f0 g     F .text  0000000000000534              _Z9setParamsNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000005200 g     F .text  0000000000000034              _start
+000000000000db60 g     F .text  00000000000001e0              _Z13FindResponsesN2cv3MatEiiiRSt6vectorIiSaIiEE
+00000000000126a0  w    F .text  0000000000000014              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED1Ev
+0000000000008e30 g     F .text  00000000000000b4              cJSON_Parse
+0000000000012220  w    F .text  0000000000000020              .hidden _ZNSt6vectorI7VehicleSaIS0_EED1Ev
+0000000000014c30  w    F .text  00000000000001bc              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_default_appendEm
+0000000000012320  w    F .text  0000000000000070              .hidden _ZNK3zmq7error_t4whatEv
+0000000000007f70 g     F .text  00000000000000a8              cJSON_CreateObjectReference
+0000000000013b20  w    F .text  0000000000000070              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEED2Ev
+0000000000007824 g     F .text  000000000000007c              cJSON_GetObjectItem
+000000000000bce0 g     F .text  00000000000000bc              _Z3mulN2cv6Point_IfEES1_
+0000000000007d30 g     F .text  00000000000000b8              cJSON_GetStringValue
+0000000000004b80 g     F .text  0000000000000024              __disconnect_from_bgn_ids
+000000000000b4b0 g     F .text  000000000000012c              cJSON_PrintBuffered
+000000000000bfb0 g     F .text  000000000000010c              _Z4cropN2cv3MatES0_NS_5Rect_IiEE
+0000000000009c70 g     F .text  00000000000000d0              cJSON_GetArrayItem
+000000000000e600 g     F .text  00000000000001a8              _Z23removeOldVehicleSamplesj
+00000000000145a0  w    F .text  00000000000001c0              .hidden _ZNK4argh6parser10bad_streamB5cxx11Ev
+0000000000009b90 g     F .text  00000000000000e0              cJSON_AddArrayToObject
+000000000000d910 g     F .text  0000000000000250              _Z12vehicleValidN2cv3MatES0_P7VehicleRi
+0000000000008684 g     F .text  0000000000000098              cJSON_ParseWithOpts
+0000000000008720 g     F .text  0000000000000080              cJSON_ParseWithLength
+0000000000011f50  w    F .text  0000000000000064              .hidden _ZNK3zmq14mutable_buffer4sizeEv
+0000000000007ec0 g     F .text  00000000000000a8              cJSON_CreateStringReference
+0000000000011e10  w    F .text  0000000000000060              .hidden _ZN3zmq6detail11socket_baseC1EPv
+0000000000018dd0 g     F .text  0000000000000198              ids_create_perf_queue
+0000000000008ba0 g     F .text  00000000000000b8              cJSON_HasObjectItem
+0000000000018b80 g     F .text  00000000000000dc              ids_open_perf_queue
+0000000000015c40  w    F .text  0000000000000214              _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_S5_ESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE15_M_insert_equalIS8_EESt17_Rb_tree_iteratorIS8_EOT_
+0000000000012470  w    F .text  00000000000000ac              .hidden _ZN3zmq9context_tC2Ev
+0000000000014140  w    F .text  0000000000000078              .hidden _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+0000000000011da0  w    F .text  0000000000000064              .hidden _ZNK3zmq12const_buffer4sizeEv
+000000000000a270 g     F .text  0000000000000130              cJSON_InsertItemInArray
+0000000000012700  w    F .text  000000000000007c              .hidden _ZN3zmq9message_tC2Ev
+00000000000054d0 g     F .text  00000000000000d4              cJSON_Delete
+0000000000015460  w    F .text  0000000000000020              .hidden _ZNSt10unique_ptrINSt6thread6_StateESt14default_deleteIS1_EED2Ev
+0000000000007164 g     F .text  00000000000000c8              cJSON_CreateNumber
+0000000000009a60 g     F .text  0000000000000128              cJSON_SetValuestring
+00000000000055a4 g     F .text  00000000000000a0              cJSON_SetNumberHelper
+0000000000009e80 g     F .text  000000000000008c              cJSON_ReplaceItemInObject
+0000000000011c30  w    F .text  0000000000000098              .hidden _ZN4LaneC1EN2cv6Point_IiEES2_fff
+0000000000018cc0 g     F .text  00000000000000e0              ids_open_app_event_queue
+0000000000013b20  w    F .text  0000000000000070              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEED1Ev
+000000000000a6a0 g     F .text  0000000000000184              cJSON_CreateFloatArray
+0000000000009820 g     F .text  00000000000000e0              cJSON_AddObjectToObject
+000000000000a184 g     F .text  00000000000000ec              cJSON_ReplaceItemInArray
+0000000000013c10  w    F .text  000000000000015c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEE6_M_runEv
+0000000000009330 g     F .text  00000000000000b0              cJSON_AddItemReferenceToObject
+0000000000011c30  w    F .text  0000000000000098              .hidden _ZN4LaneC2EN2cv6Point_IiEES2_fff
+0000000000014fb0  w    F .text  0000000000000130              _ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_
+00000000000125e0  w    F .text  00000000000000b4              .hidden _ZN3zmq6detail11socket_base7connectEPKc
+00000000000126c0  w    F .text  000000000000003c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED0Ev
+0000000000015550  w    F .text  00000000000001c0              _ZNSt6vectorI4LaneSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
+0000000000007cc0 g     F .text  000000000000006c              cJSON_DeleteItemFromObjectCaseSensitive
+0000000000015800  w    F .text  00000000000000f4              _ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_mPKS8_St9__va_listEmSB_z
+0000000000012a80  w    F .text  0000000000000120              .hidden _ZN3zmq9context_tC2Eii
+000000000000b010 g     F .text  000000000000007c              cJSON_PrintUnformatted
+0000000000006320 g     F .text  0000000000000074              cJSON_IsInvalid
+0000000000012400  w    F .text  0000000000000070              .hidden _ZNK3zmq9message_t4dataEv
+00000000000068c0 g     F .text  000000000000008c              cJSON_Version
+0000000000009294 g     F .text  0000000000000094              cJSON_AddItemToObjectCS
+0000000000018f70 g     F .text  000000000000002c              ids_destroy_app_event_queue
+0000000000014b50  w    F .text  0000000000000020              .hidden _ZNSt12_Vector_baseI4LaneSaIS0_EED1Ev
+0000000000011ee0  w    F .text  0000000000000064              .hidden _ZNK3zmq14mutable_buffer4dataEv
+00000000000095a0 g     F .text  00000000000000e0              cJSON_AddFalseToObject
+0000000000012150  w    F .text  000000000000005c              .hidden _ZN13VehicleSampleC1Ev
+0000000000013560  w    F .text  00000000000000c4              .hidden _ZN3zmq8socket_tD2Ev
+0000000000014df0  w    F .text  0000000000000140              _ZNKSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_St9_IdentityIS5_ESt4lessIS5_ESaIS5_EE4findERKS5_
+00000000000174c0  w    F .text  00000000000001a0              .hidden _ZN4argh6parserC1EPKPKci
+000000000000b6e0 g     F .text  0000000000000298              cJSON_Compare
+0000000000009770 g     F .text  00000000000000b0              cJSON_AddNumberToObject
+000000000000a520 g     F .text  0000000000000180              cJSON_CreateStringArray
+0000000000018660 g     F .text  00000000000002a0              __cyg_profile_func_enter
+00000000000099b0 g     F .text  00000000000000a8              cJSON_AddRawToObject
+0000000000008d30 g     F .text  00000000000000f8              cJSON_DeleteItemFromObject
+0000000000006754 g     F .text  0000000000000074              cJSON_IsRaw
+0000000000006500 g     F .text  0000000000000074              cJSON_IsNull
+00000000000070e4 g     F .text  0000000000000080              cJSON_CreateBool
+000000000000e430 g     F .text  00000000000001d0              _Z18removeLostVehiclesj
+0000000000012390  w    F .text  0000000000000070              .hidden _ZNK3zmq9message_t4sizeEv
+0000000000012780  w    F .text  0000000000000090              .hidden _ZN3zmq12const_bufferC1EPKvm
+0000000000005320 g     F .text  0000000000000068              cJSON_GetErrorPtr
+0000000000012ba0  w    F .text  00000000000000d4              .hidden _ZN3zmq12const_bufferC2ERKNS_14mutable_bufferE
+0000000000013aa0  w    F .text  0000000000000074              .hidden _ZN16ThreadSafeStringD1Ev
+0000000000015900  w    F .text  0000000000000170              .hidden _ZNK16ThreadSafeString9getStringB5cxx11Ev
+00000000000073d0 g     F .text  00000000000000a8              cJSON_CreateRaw
+000000000000a824 g     F .text  0000000000000184              cJSON_CreateIntArray
+0000000000012fe0  w    F .text  0000000000000184              .hidden _ZN3zmq8socket_tC2ERNS_9context_tENS_11socket_typeE
+0000000000010f70 g     F .text  000000000000027c              _Z14zmqTransmitterv
+000000000000af90 g     F .text  000000000000007c              cJSON_Print
+00000000000182e0 g     F .text  0000000000000378              __create_ids_perf_queue
+0000000000012520  w    F .text  00000000000000b4              .hidden _ZN3zmq6detail11socket_base4bindEPKc
+000000000000be60 g     F .text  00000000000000ac              _Z3mulN2cv6Point_IfEEf
+00000000000094c0 g     F .text  00000000000000e0              cJSON_AddTrueToObject
+0000000000011c10  w    F .text  000000000000000c              .hidden _ZNKSt5ctypeIcE8do_widenEc
+0000000000017660  w    F .text  00000000000001cc              .hidden _ZNK4argh6parser8got_flagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000013170  w    F .text  000000000000010c              .hidden _ZNK3zmq9message_t9to_stringB5cxx11Ev
+0000000000012070  w    F .text  000000000000007c              .hidden _ZN6StatusC1Ev
+000000000000a3a0 g     F .text  0000000000000180              cJSON_CreateDoubleArray
+000000000000fe24 g     F .text  0000000000000610              _Z6zmq_rxRN3zmq8socket_tE
+0000000000012ba0  w    F .text  00000000000000d4              .hidden _ZN3zmq12const_bufferC1ERKNS_14mutable_bufferE
+0000000000012fc0  w    F .text  0000000000000020              .hidden _ZNSt6vectorI13VehicleSampleSaIS0_EED2Ev
+0000000000008c60 g     F .text  00000000000000c8              cJSON_DetachItemFromObject
+0000000000014010  w    F .text  00000000000000b4              _ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_
+0000000000006574 g     F .text  0000000000000074              cJSON_IsNumber
+00000000000128a0  w    F .text  000000000000007c              .hidden _ZN3zmq9message_tD2Ev
+0000000000012810  w    F .text  0000000000000090              .hidden _ZN3zmq14mutable_bufferC2EPvm
+000000000000bda0 g     F .text  00000000000000bc              _Z3addN2cv6Point_IfEES1_
+000000000000c7c0 g     F .text  0000000000000198              _Z9dist2lineN2cv6Point_IfEES1_S1_
+0000000000012dd0  w    F .text  00000000000000a8              .hidden _ZN3zmq7error_tD0Ev
+0000000000005150 g     F .text  0000000000000048              __connect_to_bgn_ids
+00000000000078a0 g     F .text  000000000000007c              cJSON_GetObjectItemCaseSensitive
+0000000000011d30  w    F .text  0000000000000064              .hidden _ZNK3zmq12const_buffer4dataEv
+00000000000093e0 g     F .text  00000000000000e0              cJSON_AddNullToObject
+00000000000084d0 g     F .text  00000000000001b4              cJSON_ParseWithLengthOpts
+0000000000013280  w    F .text  00000000000000b4              .hidden _ZN3zmq6bufferEPvm
+0000000000006410 g     F .text  0000000000000074              cJSON_IsTrue
+0000000000006f80 g     F .text  0000000000000074              cJSON_CreateNull
+00000000000079a4 g     F .text  00000000000001a8              cJSON_Minify
+00000000000122b0  w    F .text  000000000000006c              .hidden _ZN3zmq7error_tD1Ev
+00000000000144c0  w    F .text  00000000000000d4              .hidden _ZNK4argh6parser9is_optionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+00000000000120f0  w    F .text  000000000000005c              .hidden _ZN7VehicleC2Ev
+0000000000006484 g     F .text  0000000000000074              cJSON_IsBool
+0000000000006ff4 g     F .text  0000000000000074              cJSON_CreateTrue
+0000000000014f30  w    F .text  000000000000007c              .hidden _ZNK4argh6parser8is_paramERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+0000000000013630  w    F .text  00000000000000ec              .hidden _ZN3zmq9context_tD2Ev
+0000000000008020 g     F .text  00000000000000a8              cJSON_CreateArrayReference
+0000000000009200 g     F .text  0000000000000094              cJSON_AddItemToObject
+00000000000111f0 g     F .text  0000000000000a18              _Z7adasAppNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_b
+000000000000d744 g     F .text  00000000000001cc              _Z9horizLineN2cv3MatEiiNS_6Point_IiEES2_i
+0000000000007bf4 g     F .text  00000000000000c8              cJSON_DetachItemFromObjectCaseSensitive
+0000000000018b20 g     F .text  000000000000005c              ids_close_perf_queue
+0000000000009fa0 g     F .text  00000000000000e0              cJSON_DetachItemFromArray
+0000000000007070 g     F .text  0000000000000074              cJSON_CreateFalse
+000000000000bf10 g     F .text  000000000000009c              _Z4distN2cv6Point_IfEE
+000000000000d5f0 g     F .text  0000000000000154              _Z15hasVertResponseN2cv3MatEiiii
+000000000000ba80 g     F .text  000000000000019c              _Z17findSymmetryAxisXN2cv3MatENS_6Point_IiEES2_
+000000000000a080 g     F .text  0000000000000104              cJSON_DeleteItemFromArray
+00000000000121b0  w    F .text  0000000000000070              .hidden _ZN16ThreadSafeStringC2Ev
+0000000000011e70  w    F .text  0000000000000064              .hidden _ZN3zmq9context_t6handleEv
+0000000000018c60 g     F .text  0000000000000060              ids_close_app_event_queue
+0000000000007320 g     F .text  00000000000000a8              cJSON_CreateString
+0000000000009050 g     F .text  000000000000008c              cJSON_AddItemReferenceToArray
+00000000000065f0 g     F .text  0000000000000074              cJSON_IsString
+0000000000012920  w    F .text  0000000000000088              .hidden _ZN3zmq8socket_t5closeEv
+000000000000cee0 g     F .text  00000000000006e8              _Z12drawVehiclesN2cv3MatE
+0000000000009680 g     F .text  00000000000000ec              cJSON_AddBoolToObject
+000000000000b5e0 g     F .text  00000000000000fc              cJSON_PrintPreallocated
+0000000000018da0 g     F .text  000000000000002c              ids_destroy_perf_queue
+00000000000174c0  w    F .text  00000000000001a0              .hidden _ZN4argh6parserC2EPKPKci
+0000000000010434 g     F .text  0000000000000154              _Z11zmqReceiverv
+00000000000067d0 g     F .text  0000000000000078              cJSON_malloc
+0000000000012070  w    F .text  000000000000007c              .hidden _ZN6StatusC2Ev
+00000000000129b0  w    F .text  00000000000000c4              .hidden _ZN3zmq9context_t5closeEv
+0000000000015e60  w    F .text  0000000000000238              _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
+000000000000b980 g     F .text  00000000000000a4              _Z3dotN2cv6Point_IfEES1_
+0000000000012700  w    F .text  000000000000007c              .hidden _ZN3zmq9message_tC1Ev
+0000000000005db0 g     F .text  0000000000000084              cJSON_GetArraySize
+0000000000011cd0  w    F .text  0000000000000060              .hidden _ZN3zmq9message_t6handleEv
+00000000000126a0  w    F .text  0000000000000014              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEED2Ev
+0000000000013340  w    F .text  00000000000000b4              .hidden _ZN3zmq6bufferEPKvm
+00000000000121b0  w    F .text  0000000000000070              .hidden _ZN16ThreadSafeStringC1Ev
+00000000000120f0  w    F .text  000000000000005c              .hidden _ZN7VehicleC1Ev
+0000000000006664 g     F .text  0000000000000074              cJSON_IsArray
+0000000000012fc0  w    F .text  0000000000000020              .hidden _ZNSt6vectorI13VehicleSampleSaIS0_EED1Ev
+0000000000012220  w    F .text  0000000000000020              .hidden _ZNSt6vectorI7VehicleSaIS0_EED2Ev
+0000000000018900 g     F .text  000000000000021c              __cyg_profile_func_exit
+0000000000012e80  w    F .text  0000000000000140              .hidden _ZN3zmq8socket_tC1ERNS_9context_tEi
+0000000000007230 g     F .text  0000000000000074              cJSON_CreateArray
+0000000000013b90  w    F .text  000000000000007c              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bES8_S8_bEEEEED0Ev
+0000000000008fd0 g     F .text  0000000000000078              cJSON_AddItemToArray
+000000000000d5d0 g     F .text  0000000000000020              _Z5pixelN2cv3MatEii
+0000000000011e10  w    F .text  0000000000000060              .hidden _ZN3zmq6detail11socket_baseC2EPv
+00000000000150e0  w    F .text  00000000000001b0              _ZNSt6vectorI13VehicleSampleSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
+0000000000014b30  w    F .text  0000000000000020              .hidden _ZNSt12_Vector_baseI13VehicleSampleSaIS0_EED1Ev
+0000000000005f94 g     F .text  00000000000000b8              cJSON_DetachItemViaPointer
+0000000000006394 g     F .text  0000000000000074              cJSON_IsFalse
+0000000000012780  w    F .text  0000000000000090              .hidden _ZN3zmq12const_bufferC2EPKvm
+0000000000013aa0  w    F .text  0000000000000074              .hidden _ZN16ThreadSafeStringD2Ev
+0000000000007df0 g     F .text  00000000000000c8              cJSON_GetNumberValue
+0000000000013400  w    F .text  0000000000000160              .hidden _ZN3zmq6detail11socket_base4recvERNS_9message_tENS_10recv_flagsE
+0000000000012e80  w    F .text  0000000000000140              .hidden _ZN3zmq8socket_tC2ERNS_9context_tEi
+0000000000012810  w    F .text  0000000000000090              .hidden _ZN3zmq14mutable_bufferC1EPvm
+0000000000011c20  w    F .text  0000000000000010              .hidden _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJPFvvEEEEEE6_M_runEv
+0000000000007480 g     F .text  0000000000000160              cJSON_Duplicate
+0000000000010590 g     F .text  00000000000009d8              _Z6zmq_txRN3zmq8socket_tE
+00000000000140d0  w    F .text  000000000000006c              .hidden _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
+0000000000012240  w    F .text  000000000000006c              .hidden _ZN3zmq7error_tC2Ev
+0000000000013f80  w    F .text  000000000000008c              .hidden _ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
+0000000000012c80  w    F .text  0000000000000144              .hidden _ZN3zmq6detail11socket_base4sendENS_12const_bufferENS_10send_flagsE
+0000000000012150  w    F .text  000000000000005c              .hidden _ZN13VehicleSampleC2Ev
+0000000000011fc0  w    F .text  0000000000000060              .hidden _ZZN4argh6parser5parseEiPKPKciENKUlS2_E_clES2_
+0000000000009900 g     F .text  00000000000000a8              cJSON_AddStringToObject
+0000000000015290  w    F .text  00000000000001cc              _ZNSt6vectorI7VehicleSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_
+00000000000160a0  w    F .text  0000000000000108              .hidden _ZNK4argh6parser19trim_leading_dashesERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000000bc20 g     F .text  00000000000000bc              _Z3subN2cv6Point_IfEES1_
+0000000000013940  w    F .text  0000000000000154              .hidden _ZN16ThreadSafeString9setStringERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+000000000000e2b0 g     F .text  0000000000000180              _Z20removeSamplesByIndexi
+0000000000005390 g     F .text  0000000000000140              cJSON_InitHooks
+000000000000c550 g     F .text  0000000000000268              _Z16point_on_segmentN2cv6Point_IfEES1_S1_
+000000000000e7b0 g     F .text  000000000000086c              _Z16vehicleDetectionN2cv3MatERNS_17CascadeClassifierENS_3PtrINS_2ml6RTreesEEE
