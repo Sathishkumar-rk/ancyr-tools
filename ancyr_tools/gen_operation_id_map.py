@@ -3,8 +3,7 @@ import re
 import glob
 import os
 import pandas as pd
-import cxxfilt
-
+from ancyr_tools.symbol_parser import parse_symbol_file
 
 def ids_path_file_parser(file: str):
     paths = pd.read_csv(file, header=None)
@@ -55,38 +54,8 @@ def parseArguments():
 
 
 def parseSymbolFile(args):
-    regex = re.compile(r'^([0-9a-f]{16}).*([0-9a-f]{16})\s*(.*)$', flags=re.DOTALL)
-    result = {"from_name": {}, 'from_offset': {}}
-    func = []
-    with open(args['symbol_file'], 'r') as f:
-        for l in f:
-            match = regex.match(l)
-            if match:
-                groups = match.groups()
-                offset = int(groups[0], 16)
-                length = int(groups[1], 16)
-                name = groups[2].strip()
-                name = name.split(".hidden ")[-1] # Required for c++ functions
-                try:
-                    name = cxxfilt.demangle(name)
-                except cxxfilt.InvalidName:
-                    pass
-                # get rid of any function parameters
-                name = name.split("(")[0]
-                # Remove any class headers from function names
-                name = name.split(":")[-1]
-                # Omit anything with a space.  We don't know how to parse it
-                if " " in name:
-                    continue
-                if name in args['excluded_operations']:
-                    print(f"excluding operation {name}")
-                    continue
-                else:
-                    print(f"including operation {name}")
-                func.append(name)
-                result['from_offset'][offset] = {'name': name}
-                result['from_name'][name] = {'offset': offset}
-
+    result = dict()
+    result['from_offset'], result['from_name'] = parse_symbol_file(args['symbol_file'])
     return result
 
 
