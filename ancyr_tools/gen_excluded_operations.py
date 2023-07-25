@@ -54,11 +54,6 @@ def exportExcludedOperations(args):
                     pass
                 # get rid of any function parameters
                 name = name.split("(")[0]
-                # Remove any class headers from function names
-                name = name.split(":")[-1]
-                # Omit anything with a space.  We don't know how to parse it
-                if " " in name:
-                    continue
                 if name not in func:
                     func.append(name)
                     result['from_offset'][offset] = {'name': name}
