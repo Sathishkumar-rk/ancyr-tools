@@ -11,6 +11,7 @@ class TestLoadCollectionLogsFile(TestCase):
     def test_load_sample_collection_logs(self):
         sample_file = SAMPLE_LOG_FILES_DIR.joinpath("ids_func_0x10f70.csv")
         ids_samples = IdsCollectionSample.load_ids_collection_log(sample_file)
+        self.assertEqual(5000, len(ids_samples))
         # Verify that the first sample is valid
         sample = ids_samples[0]
         self.assertEqual("0x12470", sample.offset)
