@@ -36,7 +36,9 @@ class IdsCollectionSample:
         retval = []
         for sample in ids_samples:
             if sample.offset not in symbols_by_offset:
-                retval.append(hex(sample.offset))
+                # Skip functions not in the symbol table.  Uncomment below to include them
+                # retval.append(hex(sample.offset))
+                pass
             else:
                 retval.append(symbols_by_offset[sample.offset]["name"])
         return retval
