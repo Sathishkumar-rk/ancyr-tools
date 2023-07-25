@@ -35,8 +35,6 @@ def parse_symbol_file(symbol_file: Path) -> ({}, {}):
                     name = cxxfilt.demangle(name)
                 except cxxfilt.InvalidName:
                     pass
-                # get rid of any function parameters
-                name = name.split("(")[0]
                 if name not in func:
                     func.append(name)
                     result_by_offset[offset] = {'name': name}
