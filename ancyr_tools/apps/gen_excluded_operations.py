@@ -3,7 +3,7 @@ import re
 import os
 import pandas as pd
 import cxxfilt
-from .symbol_parser import parse_symbol_file
+from ancyr_tools.symbol_parser import parse_symbol_file
 
 
 def parseArguments():
