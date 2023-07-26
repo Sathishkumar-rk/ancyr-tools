@@ -4,7 +4,7 @@ import cxxfilt
 import csv
 
 
-def parse_symbol_file(symbol_file: Path) -> ({}, {}):
+def parse_symbol_file(symbol_file: Path) -> ({int: str}, {str: int}):
     """
     Parse the symbol file and return two dictionaries; the first contains the symbols sorted by offset,
     the second is symbols sorted by name
@@ -44,7 +44,7 @@ def parse_symbol_file(symbol_file: Path) -> ({}, {}):
     return result_by_offset, result_by_name
 
 
-def load_operation_id_map_file(map_file: Path) -> ({}, {}):
+def load_operation_id_map_file(map_file: Path) -> ({int: str}, {str: int}):
     """
     Parse the symbol file and return two dictionaries; the first contains the symbols sorted by offset,
     the second is symbols sorted by name
