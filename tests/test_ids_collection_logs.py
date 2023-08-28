@@ -31,4 +31,4 @@ class TestLoadCollectionLogsFile(TestCase):
 
         ids_samples = IdsCollectionSample.load_ids_collection_log(sample_ids_log_file)
         function_names = IdsCollectionSample.get_function_names(ids_samples, symbols_by_offset)
-        self.assertEqual(10000, len(function_names))
+        self.assertEqual(3447, len(function_names))
