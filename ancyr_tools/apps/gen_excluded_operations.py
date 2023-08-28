@@ -1,6 +1,5 @@
 import argparse
-import re
-import pandas as pd
+import logging
 from ancyr_tools.symbol_parser import parse_symbol_file
 from pathlib import Path
 
@@ -15,7 +14,11 @@ def cmdline():
                       help="A list of functions that should be ignored when generating the excluded operations list")
     parser.add_argument('-f', '--included_operation_file', type=str, nargs="*", default=[],
                       help="Files containing functions that should be ignored when generating the excluded operations list")
+    parser.add_argument('-d', '--debug', action='store_true', help="Enable debug logging")
     args = parser.parse_args()
+
+    if args.debug:
+        logging.basicConfig(level=logging.DEBUG)
 
     included_operations = args.included_operation_list
 
@@ -27,6 +30,8 @@ def cmdline():
             included_operations += fpt.readlines()
 
     _, function_names = parse_symbol_file(args.symbol_file)
+
+    logging.debug(f"FUNCTION NAMES: {function_names}")
 
     for n in function_names:
         if n not in included_operations:
