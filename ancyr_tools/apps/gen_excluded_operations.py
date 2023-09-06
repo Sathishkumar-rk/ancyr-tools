@@ -29,19 +29,25 @@ def cmdline():
         with open(f) as fpt:
             included_operations += fpt.readlines()
 
-    # Remove any quotes around function names
-    # for x in range(len(included_operations)):
-    #    included_operations[x] = included_operations[x].strip('\"')
-
     _, function_names = parse_symbol_file(args.symbol_file)
 
     logging.debug(f"FUNCTION NAMES: {function_names}")
     logging.debug(f"INCLUDED FUNCTIONS: {included_operations}")
 
-    for n in function_names:
-        if n not in included_operations:
-            excluded_operations.append(n)
-            output += f"'{n}',"
+    for fun in function_names:
+        excluded = True
+        for op in included_operations:
+            if fun.startswith(op):
+                excluded = False
+                break
+        if excluded:
+            excluded_operations.append(fun)
+            output += f"'{fun}',"
+
+    # for n in function_names:
+    #    if n not in included_operations:
+    #        excluded_operations.append(n)
+    #        output += f"'{n}',"
 
     print(output)
 
