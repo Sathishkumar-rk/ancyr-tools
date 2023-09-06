@@ -1,72 +1,44 @@
 import argparse
-import re
-import os
-import pandas as pd
-import cxxfilt
+import logging
 from ancyr_tools.symbol_parser import parse_symbol_file
-
-
-def parseArguments():
-    args = argparse.ArgumentParser()
-    args.add_argument('--input_dir', type=str, required=False)
-    args.add_argument('--output_dir', type=str, required=False)
-    args.add_argument('--symbol_file', type=str, required=True)
-    args.add_argument('--path_operations', type=str, required=False)
-    args.add_argument('--included_operations', type=str, required=True)
-    args_dict = vars(args.parse_args())
-
-    if args_dict['input_dir'] is None:
-        args_dict['input_dir'] = os.path.dirname(args_dict['symbol_file'])
-
-    if args_dict['output_dir'] is None:
-        args_dict['output_dir'] = args_dict['input_dir']
-
-    if args_dict['path_operations'] is not None:
-        ids_path = ids_path_file_parser(args_dict['path_operations'])
-        ops = set([op for path in ids_path for op in path])
-        args_dict['path_operations'] = ops
-
-    if args_dict['included_operations'] is not None:
-        included_operations = []
-        with open(args_dict['included_operations'], 'r') as f:
-            for l in f:
-                included_operations.append(l.strip())
-        args_dict['included_operations'] = included_operations
-
-    return args_dict
-
-
-def exportExcludedOperations(args):
-    regex = re.compile(r'^([0-9a-f]{16}).*([0-9a-f]{16})\s*(.*)$', flags=re.DOTALL)
-    result = {"from_name": {}, 'from_offset': {}}
-    func = []
-    result['from_offset'], result['from_name'] = parse_symbol_file(args['symbol_file'])
-
-    if args['path_operations'] is None:
-        args['path_operations'] = []
-    with open(args['output_dir'] + '/excluded_operations.ids', 'w') as file:
-        for f in func:
-            if f not in args['path_operations'] and f not in args['included_operations']:
-                file.write(f)
-                file.write('\n')
-
-
-def ids_path_file_parser(file: str):
-    paths = pd.read_csv(file, header=None)
-    ids_path = []
-    for path in paths.iloc:
-        ops = []
-        for op in path:
-            if pd.isna(op) == False:
-                ops.append(op)
-        ids_path.append(ops)
-
-    return ids_path
+from pathlib import Path
 
 
 def cmdline():
-    args = parseArguments()
-    exportExcludedOperations(args)
+    parser = argparse.ArgumentParser(
+        description="Using the provided symbol file and included operations lists/files, generate an excluded operation list."
+                    "Output is a comma-separated list, suitable as an argument to gcc/g++."
+    )
+    parser.add_argument('symbol_file', type=Path)
+    parser.add_argument('-l', '--included_operation_list', type=str, nargs="*", default=[],
+                      help="A list of functions that should be ignored when generating the excluded operations list")
+    parser.add_argument('-f', '--included_operation_file', type=str, nargs="*", default=[],
+                      help="Files containing functions that should be ignored when generating the excluded operations list")
+    parser.add_argument('-d', '--debug', action='store_true', help="Enable debug logging")
+    args = parser.parse_args()
+
+    if args.debug:
+        logging.basicConfig(level=logging.DEBUG)
+
+    included_operations = args.included_operation_list
+
+    excluded_operations = []
+    output = ''
+
+    for f in args.included_operation_file:
+        with open(f) as fpt:
+            included_operations += fpt.readlines()
+
+    _, function_names = parse_symbol_file(args.symbol_file)
+
+    logging.debug(f"FUNCTION NAMES: {function_names}")
+
+    for n in function_names:
+        if n not in included_operations:
+            excluded_operations.append(n)
+            output += f"'{n}',"
+
+    print(output)
 
 if __name__ == '__main__':
     cmdline()
