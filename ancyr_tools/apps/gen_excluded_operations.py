@@ -29,6 +29,10 @@ def cmdline():
         with open(f) as fpt:
             included_operations += fpt.readlines()
 
+    # Remove any quotes around function names
+    for x in range(len(included_operations)):
+        included_operations[x] = included_operations[x].strip('\"')
+
     _, function_names = parse_symbol_file(args.symbol_file)
 
     logging.debug(f"FUNCTION NAMES: {function_names}")
