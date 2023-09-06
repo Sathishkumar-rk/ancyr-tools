@@ -32,6 +32,7 @@ def cmdline():
     _, function_names = parse_symbol_file(args.symbol_file)
 
     logging.debug(f"FUNCTION NAMES: {function_names}")
+    logging.debug(f"INCLUDED FUNCTIONS: {included_operations}")
 
     for n in function_names:
         if n not in included_operations:
