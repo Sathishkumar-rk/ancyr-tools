@@ -38,6 +38,7 @@ class IdsCollectionSample:
             if sample.offset not in symbols_by_offset:
                 # Skip functions not in the symbol table.  Uncomment below to include them
                 # retval.append(hex(sample.offset))
+                print(f"Warning: function {hex(sample.offset)} not in symbol table")
                 pass
             else:
                 retval.append(symbols_by_offset[sample.offset]["name"])
