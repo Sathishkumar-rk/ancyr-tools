@@ -42,14 +42,14 @@ def cmdline():
                 break
         if excluded:
             excluded_operations.append(fun)
-            output += f"-finstrument-functions-exclude-function-list='{fun}'\n"
+            output += f"'{fun}',"
 
     # for n in function_names:
     #    if n not in included_operations:
     #        excluded_operations.append(n)
     #        output += f"'{n}',"
 
-    print(output)
+    print(output.rstrip(","))
 
 if __name__ == '__main__':
     cmdline()
