@@ -2,6 +2,7 @@ from pathlib import Path
 import re
 import cxxfilt
 import csv
+import logging
 
 
 def parse_symbol_file(symbol_file: Path) -> ({int: str}, {str: int}):
@@ -35,6 +36,7 @@ def parse_symbol_file(symbol_file: Path) -> ({int: str}, {str: int}):
                 try:
                     name = cxxfilt.demangle(name)
                 except cxxfilt.InvalidName:
+                    logging.warning(f"Object Name {name} cannot be demangled")
                     pass
                 if name not in func:
                     func.append(name)
