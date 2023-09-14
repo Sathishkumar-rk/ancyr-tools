@@ -55,6 +55,7 @@ def cmdline():
             output += f"'{function_string}',"
 
 
+
     # Add our excluded operations list passed by the user
     for op in args.excluded_operation_list:
         excluded_operations.append(op)
