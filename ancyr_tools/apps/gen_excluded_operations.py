@@ -39,6 +39,8 @@ def cmdline():
     for fun in function_names:
         excluded = True
         function_string = fun.split("(")[0]
+        function_string = function_string.split("<")[0]
+        function_string = function_string.split(" ")[-1]
         for op in included_operations:
             if function_string.startswith(op):
                 excluded = False
