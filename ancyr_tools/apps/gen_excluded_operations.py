@@ -38,20 +38,21 @@ def cmdline():
 
     for fun in function_names:
         excluded = True
+        function_string = fun.split("(")[0]
         for op in included_operations:
-            if fun.startswith(op):
+            if function_string.startswith(op):
                 excluded = False
                 break
         if excluded:
             # Don't add this operation to the excluded operation list if it would already be excluded
             excluded = True
             for op in args.excluded_operation_list:
-                if op in fun:
+                if op in function_string:
                     excluded = False
                     break
         if excluded:
-            excluded_operations.append(fun)
-            output += f"'{fun}',"
+            excluded_operations.append(function_string)
+            output += f"'{function_string}',"
 
 
     # Add our excluded operations list passed by the user
