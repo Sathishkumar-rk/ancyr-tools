@@ -14,6 +14,8 @@ def cmdline():
                       help="A list of functions that should be ignored when generating the excluded operations list")
     parser.add_argument('-f', '--included_operation_file', type=str, nargs="*", default=[],
                       help="Files containing functions that should be ignored when generating the excluded operations list")
+    parser.add_argument('-e', '--excluded_operation_list', type=str, nargs="*", default=[],
+                        help="A list of excluded operations -- this can reduce the size of your excluded operation list")
     parser.add_argument('-d', '--debug', action='store_true', help="Enable debug logging")
     args = parser.parse_args()
 
@@ -41,13 +43,16 @@ def cmdline():
                 excluded = False
                 break
         if excluded:
-            excluded_operations.append(fun)
-            output += f"'{fun}',"
+            # Don't add this operation to the excluded operation list if it would already be excluded
+            for op in args.excluded_operation_list:
+                if op not in fun:
+                    excluded_operations.append(fun)
+                    output += f"'{fun}',"
 
-    # for n in function_names:
-    #    if n not in included_operations:
-    #        excluded_operations.append(n)
-    #        output += f"'{n}',"
+    # Add our excluded operations list passed by the user
+    for op in args.excluded_operation_list:
+        excluded_operations.append(op)
+        output += f"'{op}',"
 
     print(output.rstrip(","))
 
