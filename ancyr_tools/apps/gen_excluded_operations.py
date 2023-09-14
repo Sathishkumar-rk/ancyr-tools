@@ -48,6 +48,7 @@ def cmdline():
                 if op not in fun:
                     excluded_operations.append(fun)
                     output += f"'{fun}',"
+                    break
 
     # Add our excluded operations list passed by the user
     for op in args.excluded_operation_list:
