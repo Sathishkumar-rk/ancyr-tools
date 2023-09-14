@@ -41,6 +41,8 @@ def cmdline():
         function_string = fun.split("(")[0]
         function_string = function_string.split("<")[0]
         function_string = function_string.split(" ")[-1]
+        if not function_string:
+            continue
         for op in included_operations:
             if function_string.startswith(op):
                 excluded = False
