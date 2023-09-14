@@ -44,11 +44,15 @@ def cmdline():
                 break
         if excluded:
             # Don't add this operation to the excluded operation list if it would already be excluded
+            excluded = True
             for op in args.excluded_operation_list:
-                if op not in fun:
-                    excluded_operations.append(fun)
-                    output += f"'{fun}',"
+                if op in fun:
+                    excluded = False
                     break
+        if excluded:
+            excluded_operations.append(fun)
+            output += f"'{fun}',"
+
 
     # Add our excluded operations list passed by the user
     for op in args.excluded_operation_list:
