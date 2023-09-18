@@ -48,7 +48,7 @@ def parse_symbol_file(symbol_file: Path) -> ({int: str}, {str: int}):
 
 
 def sort_included_excluded_ops(
-        function_names: Iterable[str],
+        function_names: {str, int},
         included_operations: Iterable[str],
         excluded_operations_input: Iterable[str]
 ) -> ([str], {str, int}):
@@ -64,6 +64,7 @@ def sort_included_excluded_ops(
         for op in included_operations:
             if function_string.startswith(op):
                 excluded = False
+                included_operations_output[function_string] = function_names[fun]['offset']
                 break
         if excluded:
             # Don't add this operation to the excluded operation list if it would already be excluded
