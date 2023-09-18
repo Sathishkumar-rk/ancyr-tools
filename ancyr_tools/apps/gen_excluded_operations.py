@@ -1,6 +1,6 @@
 import argparse
 import logging
-from ancyr_tools.symbol_parser import parse_symbol_file
+from ancyr_tools.symbol_parser import parse_symbol_file, sort_included_excluded_ops
 from pathlib import Path
 
 
@@ -15,7 +15,7 @@ def cmdline():
     parser.add_argument('-f', '--included_operation_file', type=str, nargs="*", default=[],
                       help="Files containing functions that should be ignored when generating the excluded operations list")
     parser.add_argument('-e', '--excluded_operation_list', type=str, nargs="*", default=[],
-                        help="A list of excluded operations -- this can reduce the size of your excluded operation list")
+                        help="A list of excluded operations -- this can reduce the size of the arguments passed to c++ (try using with '__')")
     parser.add_argument('-d', '--debug', action='store_true', help="Enable debug logging")
     args = parser.parse_args()
 
@@ -23,8 +23,6 @@ def cmdline():
         logging.basicConfig(level=logging.DEBUG)
 
     included_operations = args.included_operation_list
-
-    excluded_operations = []
     output = ''
 
     for f in args.included_operation_file:
@@ -36,33 +34,13 @@ def cmdline():
     logging.debug(f"FUNCTION NAMES: {function_names}")
     logging.debug(f"INCLUDED FUNCTIONS: {included_operations}")
 
-    for fun in function_names:
-        excluded = True
-        function_string = fun.split("(")[0]
-        function_string = function_string.split("<")[0]
-        function_string = function_string.split(" ")[-1]
-        if not function_string:
-            continue
-        for op in included_operations:
-            if function_string.startswith(op):
-                excluded = False
-                break
-        if excluded:
-            # Don't add this operation to the excluded operation list if it would already be excluded
-            excluded = True
-            for op in args.excluded_operation_list:
-                if op in function_string:
-                    excluded = False
-                    break
-        if excluded:
-            excluded_operations.append(function_string)
-            output += f"'{function_string}',"
+    excluded_operations, _ = sort_included_excluded_ops(function_names, included_operations, args.excluded_operation_list)
 
-
+    for op in excluded_operations:
+        output += f"'{op}',"
 
     # Add our excluded operations list passed by the user
     for op in args.excluded_operation_list:
-        excluded_operations.append(op)
         output += f"'{op}',"
 
     print(output.rstrip(","))
