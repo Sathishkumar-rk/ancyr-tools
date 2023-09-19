@@ -52,6 +52,13 @@ def sort_included_excluded_ops(
         included_operations: Iterable[str],
         excluded_operations_input: Iterable[str]
 ) -> ([str], {str, int}):
+    """
+    Generate a list of excluded operations suitable for passing to gcc, along with a map of included operations
+    :param function_names: A dictionary of function names and offsets, usually generated from sym.txt
+    :param included_operations: if the above function_name starts with an item in this list, it will be considered an included operation
+    :param excluded_operations_input: if the above function_name includes an item in this list, it will be considered an excluded operation
+    :return:
+    """
     excluded_operations_output = []
     included_operations_output = {}
     for fun in function_names:

@@ -1,8 +1,7 @@
 from pathlib import Path
 import argparse
-from ancyr_tools.symbol_parser import parse_symbol_file
-from ancyr_tools.ids_collection_logs import IdsCollectionSample
-from ancyr_tools.operation_id_map import write_operation_id_map
+from ancyr_tools.symbol_parser import parse_symbol_file, sort_included_excluded_ops
+from ancyr_tools.operation_id_map import generate_operation_id_map_string
 import logging
 
 
@@ -12,7 +11,6 @@ def cmdline():
                     "Output is a comma-separated list, suitable as an argument to gcc/g++."
     )
     parser.add_argument('symbol_file', type=Path)
-    parser.add_argument('output_file', type=Path)
     parser.add_argument('-l', '--included_operation_list', type=str, nargs="*", default=[],
                       help="A list of functions that should be ignored when generating the excluded operations list")
     parser.add_argument('-f', '--included_operation_file', type=str, nargs="*", default=[],
@@ -22,17 +20,25 @@ def cmdline():
     parser.add_argument('-d', '--debug', action='store_true', help="Enable debug logging")
     args = parser.parse_args()
 
+    # Enable debugging if set
     if args.debug:
         logging.basicConfig(level=logging.DEBUG)
 
-    symbols_by_offset, symbols_by_name = parse_symbol_file(args.symbol_file)
-    ids_samples = IdsCollectionSample.load_ids_collection_log(args.log_file)
-    function_names = IdsCollectionSample.get_function_names(ids_samples, symbols_by_offset)
-    unique_symbols = {}
-    for f in function_names:
-        if f not in unique_symbols:
-            unique_symbols[f] = symbols_by_name[f]
-    write_operation_id_map(args.output_file, unique_symbols)
+    # Generate a list of included operations from the command line arguments
+    included_operations = args.included_operation_list
+    for f in args.included_operation_file:
+        with open(f) as fpt:
+            included_operations += fpt.readlines()
+
+    # Get a list of function names from the symbol file
+    _, function_names = parse_symbol_file(args.symbol_file)
+    logging.debug(f"FUNCTION NAMES: {function_names}")
+    logging.debug(f"INCLUDED FUNCTIONS: {included_operations}")
+
+    _, included_symbols = sort_included_excluded_ops(function_names, included_operations,
+                                                        args.excluded_operation_list)
+
+    print(included_symbols)
 
 if __name__ == "__main__":
     cmdline()

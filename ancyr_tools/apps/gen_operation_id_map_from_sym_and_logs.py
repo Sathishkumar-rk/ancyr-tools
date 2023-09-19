@@ -2,7 +2,7 @@ from pathlib import Path
 import argparse
 from ancyr_tools.symbol_parser import parse_symbol_file
 from ancyr_tools.ids_collection_logs import IdsCollectionSample
-from ancyr_tools.operation_id_map import write_operation_id_map
+from ancyr_tools.operation_id_map import generate_operation_id_map_string
 
 
 def cmdline():
@@ -22,7 +22,7 @@ def cmdline():
     for f in function_names:
         if f not in unique_symbols:
             unique_symbols[f] = symbols_by_name[f]
-    write_operation_id_map(args.output_file, unique_symbols)
+    print(generate_operation_id_map_string(unique_symbols))
 
 if __name__ == "__main__":
     cmdline()
