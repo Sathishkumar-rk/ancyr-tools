@@ -38,7 +38,7 @@ def cmdline():
     _, included_symbols = sort_included_excluded_ops(function_names, included_operations,
                                                         args.excluded_operation_list)
 
-    print(included_symbols)
+    print(generate_operation_id_map_string(included_symbols))
 
 if __name__ == "__main__":
     cmdline()
