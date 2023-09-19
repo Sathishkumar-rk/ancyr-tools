@@ -65,6 +65,7 @@ def sort_included_excluded_ops(
         excluded = True
         function_string = fun.split("(")[0]
         function_string = function_string.split("<")[0]
+        function_string = function_string.split("[")[0]
         function_string = function_string.split(" ")[-1]
         if not function_string:
             continue
