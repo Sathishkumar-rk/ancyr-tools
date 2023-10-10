@@ -61,6 +61,7 @@ def sort_included_excluded_ops(
     """
     excluded_operations_output = []
     included_operations_output = {}
+    func_index = 0
     for fun in function_names:
         excluded = True
         function_string = fun.split("(")[0]
@@ -73,6 +74,8 @@ def sort_included_excluded_ops(
             if function_string.startswith(op):
                 excluded = False
                 included_operations_output[function_string] = function_names[fun]
+                included_operations_output[function_string]['index'] = func_index
+                func_index += 1
                 break
         if excluded:
             # Don't add this operation to the excluded operation list if it would already be excluded
