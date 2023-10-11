@@ -71,7 +71,7 @@ def sort_included_excluded_ops(
         if not function_string:
             continue
         for op in included_operations:
-            if function_string.startswith(op):
+            if op == function_string:
                 excluded = False
                 included_operations_output[function_string] = function_names[fun]
                 included_operations_output[function_string]['index'] = func_index
